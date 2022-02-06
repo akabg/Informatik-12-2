@@ -53,9 +53,8 @@ Es spielt in einer Ader, die wir wie folgt programmiert haben...
 </p>
   
 <p align="center">
-![Virus schluss](https://user-images.githubusercontent.com/88386173/152698143-bb8fb8da-24ea-47f6-9558-af322d5841de.PNG) />
+<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/152698284-aac60cfd-7d98-4179-b87f-f393aabc0e62.PNG" />
 </p>
-  
   
 Virus, Aluhüte, Globulis....
 </details>
