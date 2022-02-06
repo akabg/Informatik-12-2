@@ -17,6 +17,9 @@ xxx
 
 ### <a name="2"></a>Blog
 
+<details>
+<summary>Der Blog</summary>
+<br>
 ## 21-12-2021
 Unsere Gruppe hat heute angefangen, über neue Projekt Ideen nachzudenken. Anschließend haben wir recherchiert, welche Programme und Programmiersprachen für Anfänger geeignet sind. Dies war etwas schwierig, einfach wegen der Fülle an Auswahlmöglichkeiten, die online vorhandens sind. Mit Hilfe einer Beratung von Herrn Buhl haben wir uns dazu entschlossen, ein neues Coding Programm auszuprobieren und nicht mehr in Blocksprache zu coden, sondern uns an das "echte" Coden zu wagen. Schnell sind wir zu Greenfoot gelangt, ein für Ausbildungszwecke entwickeltes Programm, bei welchem man mit Java programmiert. Herr Buhl hat uns einen großen Teil der Stunde, die Basics von Greenfoot mit "Actors" und "Worlds" erklärt und wie diese miteinander interagieren und man programmiert.
 
@@ -42,6 +45,7 @@ Die Objekte nachdem "Run" gedrückt wird.
 ## 12-01-2022
 
 Heute hat die Stunde etwas später begonnen (ca. 13:20). Da wir nicht so viel Zeit hatten, haben wir uns mit dem Buch beschäftigt, was uns Herrn Buhl am Tag zuvor gegeben hat, um Java und Greenfoot nach wie vor besser nachzuvollziehen. Schliesslich hat Vanessa angefangen, den vorgegebenen Tutorials folgend etwas neues auf Greenfoot zu programmieren. 
+  </details>
 
 ### <a name="3"></a>Fazit
 
