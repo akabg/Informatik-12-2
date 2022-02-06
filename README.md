@@ -13,7 +13,16 @@
 [Projektseite als PPP](#5)
 
 ### <a name="1"></a>Unser Projekt
-xxx
+
+## Vorstellung
+
+## Die Idee
+
+## World
+
+## Actors
+
+## Codes
 
 ### <a name="2"></a>Blog
 
@@ -56,6 +65,11 @@ Wir haben eine Mindmap mit unseren Finalen Ideen für unser neues Projekt erstel
 <p align="center">  
 <img width="1010" alt="Informatik12 2" src="https://user-images.githubusercontent.com/88386173/152692115-733754d4-b3d2-42aa-a9e8-5ea66cd2479d.PNG" />
 </p>
+  
+1. Idee: Ein Klavier programmieren, bei dem Töne erscheinen, wenn man verschiedene Tasten drückt. Zusätzlich kann man seine Werke aufnehmen und immer wieder abspielen, oder sogar die Art von Tönen verändern, wie in eine Orgel. 
+2. Idee: Ein Spiel, in welchem man ein Antikörper ist, der einen Coronavirus jagt. Es spielt sich in einer Ader ab und das Ziel ist es, den Virus zu fangen. Dabei treten Hindernisse auf, wie statische Aluhüte, denen man ausweichen muss, oder Globulis, die auf einen geschossen werden. Wenn man eines von beiden berührt ist das Spiel vorbei.
+  
+Wir haben uns darauf geeinigt, die 2. Spielidee zu verwirklichen und sammeln nun Codes, die wir benötigen.
   
 ## 25-01-2022
 
