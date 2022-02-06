@@ -14,15 +14,35 @@
 
 ### <a name="1"></a>Unser Projekt
 
-## Vorstellung
+<details>
+<summary>Vorstellung</summary>
+<br>
+Das ist unser Projekt....
+</details>
 
-## Die Idee
+<details>
+<summary>Die Idee</summary>
+<br>
+Unsere Idee ist es...
+</details>
 
-## World
+<details>
+<summary>World (Setting) </summary>
+<br>
+Es spielt in einer Ader, die wir wie folgt programmiert haben...
+</details>
 
-## Actors
+<details>
+<summary>Actors</summary>
+<br>
+Virus, Aluhüte, Globulis....
+</details>
 
-## Codes
+<details>
+<summary>Codes</summary>
+<br>
+Dies sind zusammengefasst unsere Codes:
+</details>
 
 ### <a name="2"></a>Blog
 
@@ -86,8 +106,6 @@ Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weite
   
 </details>
   
-
-
 
 ### <a name="3"></a>Fazit
 
