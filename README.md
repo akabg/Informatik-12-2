@@ -35,6 +35,18 @@ Es spielt in einer Ader, die wir wie folgt programmiert haben...
 <details>
 <summary>Actors</summary>
 <br>
+  
+## Antikörper
+
+<p align="center">
+  <img width="250" alt="Antikörper" src="https://user-images.githubusercontent.com/88386173/152698020-950b4e70-1960-4ee4-9d61-b14cc83ca149.PNG" />
+</p>
+
+<p align="center">
+  <img width="250" alt="Antikörper feiern" src="https://user-images.githubusercontent.com/88386173/152698027-9227718a-9a21-4bc7-93e0-cc7d6330a031.PNG" />
+</p>
+  
+  
 Virus, Aluhüte, Globulis....
 </details>
 
