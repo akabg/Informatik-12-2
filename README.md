@@ -20,11 +20,12 @@ xxx
 <details>
 <summary>Der Blog</summary>
 <br>
+  
 ## 21-12-2021
 Unsere Gruppe hat heute angefangen, über neue Projekt Ideen nachzudenken. Anschließend haben wir recherchiert, welche Programme und Programmiersprachen für Anfänger geeignet sind. Dies war etwas schwierig, einfach wegen der Fülle an Auswahlmöglichkeiten, die online vorhandens sind. Mit Hilfe einer Beratung von Herrn Buhl haben wir uns dazu entschlossen, ein neues Coding Programm auszuprobieren und nicht mehr in Blocksprache zu coden, sondern uns an das "echte" Coden zu wagen. Schnell sind wir zu Greenfoot gelangt, ein für Ausbildungszwecke entwickeltes Programm, bei welchem man mit Java programmiert. Herr Buhl hat uns einen großen Teil der Stunde, die Basics von Greenfoot mit "Actors" und "Worlds" erklärt und wie diese miteinander interagieren und man programmiert.
 
 ## 22-12-2021
-Wir haben uns Greenfoot-Bücher bei der Schule ausgeliehen. Anschließend haben wir uns erste Spiele bei Greenfoot angeschaut, wie ein Raketenspiel, um das Prinzip dahinter besser zu verstehen.
+Wir haben  uns erste Spiele bei Greenfoot angeschaut, wie ein Raketenspiel, um das Prinzip dahinter besser zu verstehen.
 
 ## 11-01-2022
 
@@ -45,7 +46,34 @@ Die Objekte nachdem "Run" gedrückt wird.
 ## 12-01-2022
 
 Heute hat die Stunde etwas später begonnen (ca. 13:20). Da wir nicht so viel Zeit hatten, haben wir uns mit dem Buch beschäftigt, was uns Herrn Buhl am Tag zuvor gegeben hat, um Java und Greenfoot nach wie vor besser nachzuvollziehen. Schliesslich hat Vanessa angefangen, den vorgegebenen Tutorials folgend etwas neues auf Greenfoot zu programmieren. 
-  </details>
+ 
+## 18-01-2022
+Ausgefallen??????????
+  
+## 18-01-2022
+Wir haben eine Mindmap mit unseren Finalen Ideen für unser neues Projekt erstellt:
+
+<p align="center">  
+<img width="1010" alt="Informatik12 2" src="https://user-images.githubusercontent.com/88386173/152692115-733754d4-b3d2-42aa-a9e8-5ea66cd2479d.PNG" />
+</p>
+  
+## 25-01-2022
+
+## 26-01-2022
+  
+## 08-02-2022
+Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spiel Hintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.  
+
+## 09-02-2022
+
+## 15-02-2022
+
+## 16-02-2022
+  
+</details>
+  
+
+
 
 ### <a name="3"></a>Fazit
 
