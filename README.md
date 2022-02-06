@@ -45,6 +45,16 @@ Es spielt in einer Ader, die wir wie folgt programmiert haben...
 <p align="center">
   <img width="250" alt="Antikörper feiern" src="https://user-images.githubusercontent.com/88386173/152698027-9227718a-9a21-4bc7-93e0-cc7d6330a031.PNG" />
 </p>
+
+## Corona Virus
+
+<p align="center">
+<img width="259" alt="Virus" src="https://user-images.githubusercontent.com/88386173/152698129-0ca5576c-3438-45a8-adbd-3b08ba420612.PNG" />
+</p>
+  
+<p align="center">
+![Virus schluss](https://user-images.githubusercontent.com/88386173/152698143-bb8fb8da-24ea-47f6-9558-af322d5841de.PNG) />
+</p>
   
   
 Virus, Aluhüte, Globulis....
