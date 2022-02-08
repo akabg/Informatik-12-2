@@ -117,6 +117,10 @@ Ausgefallen
 
 ## 26-01-2022
 Ausgefallen
+
+## 01-02-2022
+  
+## 02-02-2022
   
 ## 08-02-2022
 Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spiel Hintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.  
