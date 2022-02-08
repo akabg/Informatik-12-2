@@ -98,9 +98,9 @@ Die Objekte nachdem "Run" gedrückt wird.
 Heute hat die Stunde etwas später begonnen (ca. 13:20). Da wir nicht so viel Zeit hatten, haben wir uns mit dem Buch beschäftigt, was uns Herrn Buhl am Tag zuvor gegeben hat, um Java und Greenfoot nach wie vor besser nachzuvollziehen. Schliesslich hat Vanessa angefangen, den vorgegebenen Tutorials folgend etwas neues auf Greenfoot zu programmieren. 
  
 ## 18-01-2022
-Ausgefallen??????????
+Was haben wir gemacht?
   
-## 18-01-2022
+## 19-01-2022
 Wir haben eine Mindmap mit unseren Finalen Ideen für unser neues Projekt erstellt:
 
 <p align="center">  
@@ -113,8 +113,10 @@ Wir haben eine Mindmap mit unseren Finalen Ideen für unser neues Projekt erstel
 Wir haben uns darauf geeinigt, die 2. Spielidee zu verwirklichen und sammeln nun Codes, die wir benötigen.
   
 ## 25-01-2022
+Ausgefallen  
 
 ## 26-01-2022
+Ausgefallen
   
 ## 08-02-2022
 Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spiel Hintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.  
