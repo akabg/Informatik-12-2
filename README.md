@@ -142,7 +142,7 @@ Das hier ist die Code Übersicht unserer World, in der das eigentliche Spiel sta
  Der untere Code bewirkt, dass  der Protagonist bei Berührung den Antagonist ("Corona") "isst", dieser also verschwindet.
  
  <p align="center">
-<img width="500" alt="code corona" src="https://user-images.githubusercontent.com/88386173/153778885-a0d5b124-b583-4562-89bb-ec2eebcdf022.png" />
+<img width="800" alt="code corona" src="https://user-images.githubusercontent.com/88386173/153778885-a0d5b124-b583-4562-89bb-ec2eebcdf022.png" />
 </p>
 
 Dies sind die ersten Codes des Antagonisten "Corona". Der obere code ist dafür da, dass sich Corona fortbewegt und dabei sich in zufällig erstellten Winkeln dreht um die Richtung zu wechseln.
