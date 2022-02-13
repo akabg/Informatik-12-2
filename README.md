@@ -135,21 +135,21 @@ Bisher sind unsere actors nur durch "Platzsteller" besetzt, da die Bilder, die A
 Das hier ist die Code Übersicht unserer World, in der das eigentliche Spiel stattfindet. Hier werden die beiden Charaktere Corona und Antigen zu Anfang des Spiels hinzugefügt. 
   
 <p align="center">
-<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153778772-71122d78-4177-434e-9893-a7079ab405be.png" />
+<img width="259" alt="code antigen" src="https://user-images.githubusercontent.com/88386173/153778772-71122d78-4177-434e-9893-a7079ab405be.png" />
 </p>
   
  Der obere Code bewirkt, dass sich der Protagonist bei rechter/linker Pfeiltaste jeweils um 3 Grad dreht. 
  Der untere Code bewirkt, dass  der Protagonist bei Berührung den Antagonist ("Corona") "isst", dieser also verschwindet.
  
  <p align="center">
-<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153778885-a0d5b124-b583-4562-89bb-ec2eebcdf022.png" />
+<img width="500" alt="code corona" src="https://user-images.githubusercontent.com/88386173/153778885-a0d5b124-b583-4562-89bb-ec2eebcdf022.png" />
 </p>
 
 Dies sind die ersten Codes des Antagonisten "Corona". Der obere code ist dafür da, dass sich Corona fortbewegt und dabei sich in zufällig erstellten Winkeln dreht um die Richtung zu wechseln.
 Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es den Rand berührt, abprallt und in die Genau andere Richtung (180 Grad) weiter bewegt.
   
 <p align="center">
-<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153779031-397eeaa0-ba1c-4ec3-8e6c-d07114397cb1.png" />
+<img width="400" alt="world 1" src="https://user-images.githubusercontent.com/88386173/153779031-397eeaa0-ba1c-4ec3-8e6c-d07114397cb1.png" />
 </p>
   
 Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnliche Tier stellt den Gegner da, das K steuert der Spieler. Wichtig zu erwähnen ist hier, das alles, sowohl die Kostüme der actors als auch der Hintergrund bisher nur Platzhalter sind und sich noch ändern sollen.
