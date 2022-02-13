@@ -119,13 +119,47 @@ Ausgefallen
 Ausgefallen
 
 ## 01-02-2022
-  
+Vanessa hat angefangen das Spiel zu programmieren. Dabei hat sie ein x erstellt, das x macht. etc.....
 ## 02-02-2022
   
 ## 08-02-2022
-Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spiel Hintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.  
+Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spiel Hintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.
+Farhat hat zuhause, da sie krank war, für Antonia und Vanessa mögliche Codes recherchiert für die Art von Spiel, die wir umsetzen wollen.
+In der Stunde haben wir angefangen eine zweite Version von unserem Spiel zu programmieren. Der Unterschied zur anderen Version liegt dabei, dass sich der Protagonist nicht vor und zurückbewegt, sondern er sich ständig fortbewegt und man mit den links und rechts Tasten  nur der Winkel ändern kann. Zusätzlich zu der Steuerung haben wir auch schon den Antagonisten erstellt, welcher, wenn der Protagonist ihn berührt, verschwindet. Der Antagonist bewegt sich von alleine und völlig zufällig fortwärts und dreht um, wenn er den Bildschirmrand berührt. 
+Bisher sind unsere actors nur durch "Platzsteller" besetzt, da die Bilder, die Antonia zuhause erstellt hat momentan noch nicht funktionieren. Sie haben, obwohl sie freigestellt sind, immer noch einen weißen Rand und erscheinend viel zu groß. Dieses Problem wollen wir noch lösen. 
+  
+<p align="center">
+<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153778984-662cd5d7-3dc2-49ce-9715-49a6f12ccd18.png" />
+</p>
+  
+Das hier ist die Code Übersicht unserer World, in der das eigentliche Spiel stattfindet. Hier werden die beiden Charaktere Corona und Antigen zu Anfang des Spiels hinzugefügt. 
+  
+<p align="center">
+<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153778772-71122d78-4177-434e-9893-a7079ab405be.png" />
+</p>
+  
+ Der obere Code bewirkt, dass sich der Protagonist bei rechter/linker Pfeiltaste jeweils um 3 Grad dreht. 
+ Der untere Code bewirkt, dass  der Protagonist bei Berührung den Antagonist ("Corona") "isst", dieser also verschwindet.
+ 
+ <p align="center">
+<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153778885-a0d5b124-b583-4562-89bb-ec2eebcdf022.png" />
+</p>
+
+Dies sind die ersten Codes des Antagonisten "Corona". Der obere code ist dafür da, dass sich Corona fortbewegt und dabei sich in zufällig erstellten Winkeln dreht um die Richtung zu wechseln.
+Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es den Rand berührt, abprallt und in die Genau andere Richtung (180 Grad) weiter bewegt.
+  
+<p align="center">
+<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/153779031-397eeaa0-ba1c-4ec3-8e6c-d07114397cb1.png" />
+</p>
+  
+Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnliche Tier stellt den Gegner da, das K steuert der Spieler. Wichtig zu erwähnen ist hier, das alles, sowohl die Kostüme der actors als auch der Hintergrund bisher nur Platzhalter sind und sich noch ändern sollen.
 
 ## 09-02-2022
+Vanessa und Antonia haben sich aufgeteilt und coden jeweils beide an einer der beiden App-Versionen weiter. Am Ende wollen wir dann die Funktionen, die uns am besten gefallenn, zu einem Spiel zusammensetzen. 
+So hat Vanessa weiter an einer "Schieß-Funktion" gecodet, die wir später für Hindernisse nutzen wollen, die auf unseren Protagonisten schießen, oder er kann auf diese schießen.
+Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen Startbutton-actor eingeführt, bei welchem auf Knopfdruck das Spiel startet. Da Greenfoot andauernd abgestürzt ist, konnte sie ihn bisher nicht testen und muss dies nächste Stunde tun. Zuhause hat Antonia den GitHub für die letzten Tage geupdatet.
+  
+  Screenshots codes!
 
 ## 15-02-2022
 
