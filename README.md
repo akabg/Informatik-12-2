@@ -119,7 +119,18 @@ Ausgefallen
 Ausgefallen
 
 ## 01-02-2022
-Vanessa hat angefangen das Spiel zu programmieren. Sie hat sich verschiedene Videoanleitungen über Greenfoot-Basics
+Vanessa hat angefangen das Spiel zu programmieren. Nachdem sie das Greenfoot Buch zum grössten Teil durchgelesen hat und Zuhause Videos zum Programm geschaut hat, hat sie probiert, ein "Test-Spiel" mit ähnlichen Funktionen zum geplanten Endspiel zu erstellen. Zunächst hat sie die drei Actors "pizza", "leaf" und "shots" in die Welt gesetzt. Dabei soll "pizza" die "Impfgegner" darstellen und "leaf" die "Impfung". Der Plan war, dass "pizza" den Actor "shots" beim drücken der Leertaste auf "leaf" schiesst. Dabei kann sich Pizza auch noch oben und nach unten bewegen.
+  
+![game(1)](https://user-images.githubusercontent.com/88386321/154082477-b08c25bf-9796-41f2-98ac-1d65115aed51.PNG)
+Screen mit den Actors "pizza" und "leaf"
+  
+![game(2)](https://user-images.githubusercontent.com/88386321/154082674-6b0cf9e6-8f13-4abf-8ee1-a685c39c30a3.PNG)
+Screen, nachdem "shots" geschossen wurde
+
+Codes zum abschiessen von "shots":
+![pizzacodes](https://user-images.githubusercontent.com/88386321/154083433-de33620e-d32b-4065-b185-f1709b1e6196.PNG)
+
+
 ## 02-02-2022
   
 ## 08-02-2022
