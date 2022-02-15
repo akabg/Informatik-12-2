@@ -119,7 +119,7 @@ Ausgefallen
 Ausgefallen
 
 ## 01-02-2022
-Vanessa hat angefangen das Spiel zu programmieren. Dabei hat sie ein x erstellt, das x macht. etc.....
+Vanessa hat angefangen das Spiel zu programmieren. Sie hat sich verschiedene Videoanleitungen über Greenfoot-Basics
 ## 02-02-2022
   
 ## 08-02-2022
