@@ -173,8 +173,11 @@ Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen St
   Screenshots codes!
 
 ## 15-02-2022
-
+Antonia -> Screens
 ## 16-02-2022
+Antonia -> Screens 
+Vanessa -> make actor disappear at edge
+Farhat -> übtr programmieren
   
 </details>
   
