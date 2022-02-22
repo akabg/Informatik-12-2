@@ -173,10 +173,14 @@ Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen St
   Screenshots codes!
 
 ## 15-02-2022
-Antonia -> Screens
+- Antonia hat einen Start Screen erstellt, bei welchem man einen Start Knopf
+- Gegner (Nilpferd) --> multipliziert sich leider zu viel
+- Starten nur bei Eingabetaste 
+  
 ## 16-02-2022
-Antonia -> Screens 
-Vanessa -> make actor disappear at edge
+Antonia -> Screen Knopf zu groß
+- end Screen (loose and win, zu groß!, stattdessen Hintergrund(anders freistellen?)
+  Vanessa -> make actor disappear at edge
 Farhat -> übtr programmieren
   
 </details>
