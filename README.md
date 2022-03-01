@@ -166,9 +166,10 @@ Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es
 Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnliche Tier stellt den Gegner da, das K steuert der Spieler. Wichtig zu erwähnen ist hier, das alles, sowohl die Kostüme der actors als auch der Hintergrund bisher nur Platzhalter sind und sich noch ändern sollen.
 
 ## 09-02-2022
-Vanessa und Antonia haben sich aufgeteilt und coden jeweils beide an einer der beiden App-Versionen weiter. Am Ende wollen wir dann die Funktionen, die uns am besten gefallenn, zu einem Spiel zusammensetzen. 
+Vanessa und Antonia haben sich aufgeteilt und coden jeweils beide an einer der beiden App-Versionen weiter. Am Ende wollen wir dann die Funktionen, die uns am besten gefallen, zu einem Spiel zusammensetzen. 
 So hat Vanessa weiter an einer "Schieß-Funktion" gecodet, die wir später für Hindernisse nutzen wollen, die auf unseren Protagonisten schießen, oder er kann auf diese schießen.
 Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen Startbutton-actor eingeführt, bei welchem auf Knopfdruck das Spiel startet. Da Greenfoot andauernd abgestürzt ist, konnte sie ihn bisher nicht testen und muss dies nächste Stunde tun. Zuhause hat Antonia den GitHub für die letzten Tage geupdatet.
+Zusatz: Vanessa und Antonia haben sich falsch verstanden und an zwei verschiedenen "Arten" des Spiels gearbeitet. Wir haben uns am Ende für die Version entschieden, in der wir als "Antigen" den Virus durch den Bildschirm jagen. Aufgrund dieses Missverständnis mussten sämtliche Codes, die Vanessa geschrieben hat verworfen werden. 
   
   Screenshots codes!
 
@@ -177,6 +178,8 @@ Antonia hat einen Start Screen als neue World eingefügt, die als erstes erschei
 Den Actor, den der Spieler selbst steuert, das Antigen, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antigens arbeiten nur, wenn Boolean true ist. 
 Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antigen gegen einen Alu stößt, ist das Spiel verloren.
   Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings habe ich dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb ich in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, habe ich eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
+
+Vanessa hat währendessen an der "Schiess-Funktion" des Spiels weitergearbeitet. In der Welt, wo "Pizza" das Antigen sein sollte und "Leaf" der gejagte Coronavirus, sollte Antigen erstmal die Möglichkeit haben, sich von oben nach unten auf dem Bildschirm zu bewegen, um den sich versetzt und automatisch hin und her bewegenden Virus abzuschiessen. Sie hat also zunächst an diese Funktion des Antigens gearbeitet. Der Spieler sollte in der Lage sein, sich mit den Pfeiltasten nach oben und unten zu bewegen.  
   
 ## 16-02-2022
 Antonia hat heute den Start-Button auf dem Startscreen geresized, da dieser viel zu groß war. Dazu hat sie die beiden End-Screens loose and win provisorisch erstellt und ins Spiel eingebettet. Bis zur nächsten Stunde will sie die endgültigen Screens für das Ende designen. 
