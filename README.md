@@ -197,6 +197,8 @@ Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie 
   - echtes Corona Kostüm einfügen
   - Alle konstanten (Timer, random number) wieder normal einstellen
   - Bilder in GitHub eintragen
+  - actor Spritze einführen
+  - Spritze motion programmieren (Start Screen)
   
   
 </details>
