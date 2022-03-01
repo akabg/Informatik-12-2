@@ -42,6 +42,8 @@ Du landets hier wenn:
 - Antigen Alu berührst
 - Antigen abgeschossen wird
 - der Timer abgelaufen ist
+  
+</details>
 
 <details>
 <summary>World (Setting) </summary>
