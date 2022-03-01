@@ -227,7 +227,7 @@ Zum Schluss der Stunde haben wir das Erste Mal probiert, die seperat programmier
 Der StartButton wurde für die Animation am Anfang umfunktioniert. Wenn dieser geklickt wird erscheint nun nicht direkt die Game-World, sondern der Knopf verschwindet und eine Spritze erscheint. 
  
 <p align="center">
-<img width="900" alt="Spritzecode" src="https://user-images.githubusercontent.com/88386173/156215546-19f20811-6cd7-43c5-9f5f-dd658dcce9c3.PNG" />
+<img width="700" alt="Spritzecode" src="https://user-images.githubusercontent.com/88386173/156215546-19f20811-6cd7-43c5-9f5f-dd658dcce9c3.PNG" />
 </p> 
   
 Dies ist der Code für den neuen Actor "Spritze". Die Spritze bewegt sich nach links (also auf der X-Achse immer minus 1) und auf dem Weg setzt sie bei 200/200 ein Antigen ab, der Körper ist nun also "geimpft". Wenn sie den Rand berührt (ifAtEdge), wird das eigentliche Spiel gestartet.
