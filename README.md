@@ -27,6 +27,23 @@ Unsere Idee ist es...
 </details>
 
 <details>
+<summary>Aufbau</summary>
+<br>
+
+### 1. Start Screen
+
+### 2. Game Screen
+
+### 3.1 Win-Screen
+Du gewinnst, wenn Antigen Corona berührt.
+
+### 3.2 Loose-Screen
+Du landets hier wenn:
+- Antigen Alu berührst
+- Antigen abgeschossen wird
+- der Timer abgelaufen ist
+
+<details>
 <summary>World (Setting) </summary>
 <br>
 Es spielt in einer Ader, die wir wie folgt programmiert haben...
