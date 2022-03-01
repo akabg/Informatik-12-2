@@ -177,31 +177,60 @@ Zusatz: Vanessa und Antonia haben sich falsch verstanden und an zwei verschieden
 Antonia hat einen Start Screen als neue World eingefügt, die als erstes erscheint, wenn man das Spiel startet. Darauf ist ein Actor mittig platziert, welcher wie ein Startknopf aussieht. Wenn man auf "Button" drückt, erscheint der Gaming Screen und der Coronavirus fängt schon an sich zu bewegen. 
 Den Actor, den der Spieler selbst steuert, das Antigen, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antigens arbeiten nur, wenn Boolean true ist. 
 Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antigen gegen einen Alu stößt, ist das Spiel verloren.
-  Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings habe ich dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb ich in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, habe ich eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
+Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings habe ich dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb ich in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, habe ich eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
+  
+<p align="center">
+<img width="900" alt="startbutton" src="https://user-images.githubusercontent.com/88386173/156214139-04980902-3b87-42fd-bec8-1a2497f6e4b9.PNG" />
+</p>
+Dies ist der StartButton, der das Spiel startet.
+  
+  <p align="center">
+<img width="900" alt="gegner" src="https://user-images.githubusercontent.com/88386173/156213672-2d6295b6-b3cb-4e48-82a2-829dd9057b8e.PNG" />
+</p>
+  
+Dies ist der Code, damit Gegner nach einer zufälligen Zeit auftauchen und das Spiel verloren ist, wenn das Antigen Alu berührt.
 
 Vanessa hat währendessen an der "Schiess-Funktion" des Spiels weitergearbeitet. In der Welt, wo "Pizza" das Antigen sein sollte und "Leaf" der gejagte Coronavirus, sollte Antigen erstmal die Möglichkeit haben, sich von oben nach unten auf dem Bildschirm zu bewegen, um den sich versetzt und automatisch hin und her bewegenden Virus abzuschiessen. Sie hat also zunächst an diese Funktion des Antigens gearbeitet. Der Spieler sollte in der Lage sein, sich mit den Pfeiltasten nach oben und unten zu bewegen.  
   
 ## 16-02-2022
-Antonia hat heute den Start-Button auf dem Startscreen geresized, da dieser viel zu groß war. Dazu hat sie die beiden End-Screens loose and win provisorisch erstellt und ins Spiel eingebettet. Bis zur nächsten Stunde will sie die endgültigen Screens für das Ende designen. 
+Antonia hat heute den Start-Button auf dem Startscreen resized, da dieser viel zu groß war. Dazu hat sie die beiden End-Screens loose and win provisorisch erstellt und ins Spiel eingebettet. Bis zur nächsten Stunde will sie die endgültigen Screens für das Ende designen.   
 Farhat war heute auch wieder da und schaut uns über die Schulter. Zusätzlich probiert sie sich selbst im programmieren und recherchiert im Internet nach nützlichen Codes.
-  Vanessa -> make actor disappear at edge
+Vanessa -> make actor disappear at edge
+  
+<p align="center">
+<img width="900" alt="startbuttonsize" src="https://user-images.githubusercontent.com/88386173/156215523-88df1fe1-7f48-4fac-b59a-f9c46c3ac9d1.PNG" />
+</p> 
+Dieser Code passt die Größe des Buttons an.
   
 ## 22-02-2022
- Antonia hat bei den Alus, den Hindernisse, nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antigen das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
+ Antonia hat bei den Alus (die Hindernisse) nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antigen das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
   
 ## 23-02-2022
 Herr Buhl hat Vanessa und Antonia eine weitere, ausführlichere Ausführung in Greenfoot gegeben und ihnen weitere Codes und Möglichkeiten präsentiert. Auch hat er den Fehler in Antonias Alu-Timer gefunden (ein ";", wo es nicht hingehörte). Der Code funktioniert nun also.
   
+<p align="center">
+<img width="900" alt="timer" src="https://user-images.githubusercontent.com/88386173/156214506-92c66ef4-94ee-4874-b7e4-75f6f6990f08.PNG" />
+</p>
+  
+Das fehlerhafte Simokolon kann man in der if Funktion sehen. Ohne dieses funktioniert der Code.
+  
 ## 01-03-2022
-Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie in den letzten 2 Wochen programmiert hat. Auch hat sie einen neuen Start-Screen designt. 
-  To-Do heute:
-  - Start Screen einführen
-  - Berührung Alu tötet?
-  - echtes Corona Kostüm einfügen
-  - Alle konstanten (Timer, random number) wieder normal einstellen
-  - Bilder in GitHub eintragen
-  - actor Spritze einführen
-  - Spritze motion programmieren (Start Screen)
+Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie in den letzten 2 Wochen programmiert hat. Sie hat auch einen neuen Start-Screen designt. Im Unterricht hat sie dann direkt den neuen Start-Screen eingeführt. Dann hat sie eine kleine Animation programmiert, die abläuft, nachdem man den StartButton gedrückt hat (dieser verschwindet dann). Eine Spritze erscheint im Bild und bewegt sich nach links. An einer bestimmten Koordinate (X/Y), setzt sie ein Antigen in die Welt (der Körper ist nun geimpft). Die Spritze bewegt sich weiter, bis sie den linken Rand berührt, dann öffnet sich das eigentliche Spiel. Nachdem dies funktioniert hat, hat sie das provisorische Corona Kostüm gegen das Echte ausgetauscht. Danach wurden alle Actors so unbenannt, dass sie am Anfang großgeschrieben werden und dementsprechend die Codes noch überarbeitet.
+Farhat hat als erstes nach einem Bild für unseren Alu-Actor gesucht. Danach hat sie auch gecodet. Sie hat ausprobiert, wie man Soundeffekte bei bestimmten Interaktionen und allgemein eine Melodie im Hintergrund einrichten kann. Dies wollen wir, wenn die Zeit es zulässt, noch auf unser Spiel übertragen.
+Vanessa:
+Zum Schluss der Stunde haben wir das Erste Mal probiert, die seperat programmierten Codes zusammenzufügen. Dies heißt konkret, dass wir Alu nun auch schießen lassen wollen. Die Codes an sich haben keine Fehler, aber sie funktionieren zusammen nicht so gut, wie einzeln. Wir werden nun versuchen den Fehler zu finden. Sonst haben wir die Idee, das wir 1 statischen Alu zusätzlich einführen, der immer da ist, und als einziger schießt. 
+
+<p align="center">
+<img width="900" alt="neuerbutton" src="https://user-images.githubusercontent.com/88386173/156214849-93ae399c-836e-4dd4-a684-2fcf001d4ec2.PNG" />
+</p> 
+  
+Der StartButton wurde für die Animation am Anfang umfunktioniert. Wenn dieser geklickt wird erscheint nun nicht direkt die Game-World, sondern der Knopf verschwindet und eine Spritze erscheint. 
+ 
+<p align="center">
+<img width="900" alt="Spritzecode" src="https://user-images.githubusercontent.com/88386173/156215546-19f20811-6cd7-43c5-9f5f-dd658dcce9c3.PNG" />
+</p> 
+
+## 02-03-2022
   
   
 </details>
