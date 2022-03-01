@@ -180,12 +180,12 @@ Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hinderni
 Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings habe ich dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb ich in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, habe ich eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
   
 <p align="center">
-<img width="900" alt="startbutton" src="https://user-images.githubusercontent.com/88386173/156214139-04980902-3b87-42fd-bec8-1a2497f6e4b9.PNG" />
+<img width="700" alt="startbutton" src="https://user-images.githubusercontent.com/88386173/156214139-04980902-3b87-42fd-bec8-1a2497f6e4b9.PNG" />
 </p>
 Dies ist der StartButton, der das Spiel startet.
   
   <p align="center">
-<img width="900" alt="gegner" src="https://user-images.githubusercontent.com/88386173/156213672-2d6295b6-b3cb-4e48-82a2-829dd9057b8e.PNG" />
+<img width="700" alt="gegner" src="https://user-images.githubusercontent.com/88386173/156213672-2d6295b6-b3cb-4e48-82a2-829dd9057b8e.PNG" />
 </p>
   
 Dies ist der Code, damit Gegner nach einer zufälligen Zeit auftauchen und das Spiel verloren ist, wenn das Antigen Alu berührt.
@@ -198,7 +198,7 @@ Farhat war heute auch wieder da und schaut uns über die Schulter. Zusätzlich p
 Vanessa -> make actor disappear at edge
   
 <p align="center">
-<img width="900" alt="startbuttonsize" src="https://user-images.githubusercontent.com/88386173/156215523-88df1fe1-7f48-4fac-b59a-f9c46c3ac9d1.PNG" />
+<img width="500" alt="startbuttonsize" src="https://user-images.githubusercontent.com/88386173/156215523-88df1fe1-7f48-4fac-b59a-f9c46c3ac9d1.PNG" />
 </p> 
 Dieser Code passt die Größe des Buttons an.
   
@@ -209,7 +209,7 @@ Dieser Code passt die Größe des Buttons an.
 Herr Buhl hat Vanessa und Antonia eine weitere, ausführlichere Ausführung in Greenfoot gegeben und ihnen weitere Codes und Möglichkeiten präsentiert. Auch hat er den Fehler in Antonias Alu-Timer gefunden (ein ";", wo es nicht hingehörte). Der Code funktioniert nun also.
   
 <p align="center">
-<img width="900" alt="timer" src="https://user-images.githubusercontent.com/88386173/156214506-92c66ef4-94ee-4874-b7e4-75f6f6990f08.PNG" />
+<img width="700" alt="timer" src="https://user-images.githubusercontent.com/88386173/156214506-92c66ef4-94ee-4874-b7e4-75f6f6990f08.PNG" />
 </p>
   
 Das fehlerhafte Simokolon kann man in der if Funktion sehen. Ohne dieses funktioniert der Code.
