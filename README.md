@@ -173,15 +173,31 @@ Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen St
   Screenshots codes!
 
 ## 15-02-2022
-- Antonia hat einen Start Screen erstellt, bei welchem man einen Start Knopf
-- Gegner (Nilpferd) --> multipliziert sich leider zu viel
-- Starten nur bei Eingabetaste 
+Antonia hat einen Start Screen als neue World eingefügt, die als erstes erscheint, wenn man das Spiel startet. Darauf ist ein Actor mittig platziert, welcher wie ein Startknopf aussieht. Wenn man auf "Button" drückt, erscheint der Gaming Screen und der Coronavirus fängt schon an sich zu bewegen. 
+Den Actor, den der Spieler selbst steuert, das Antigen, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antigens arbeiten nur, wenn Boolean true ist. 
+Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antigen gegen einen Alu stößt, ist das Spiel verloren.
+  Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings habe ich dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb ich in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, habe ich eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
   
 ## 16-02-2022
-Antonia -> Screen Knopf zu groß
-- end Screen (loose and win, zu groß!, stattdessen Hintergrund(anders freistellen?)
+Antonia hat heute den Start-Button auf dem Startscreen geresized, da dieser viel zu groß war. Dazu hat sie die beiden End-Screens loose and win provisorisch erstellt und ins Spiel eingebettet. Bis zur nächsten Stunde will sie die endgültigen Screens für das Ende designen. 
+Farhat war heute auch wieder da und schaut uns über die Schulter. Zusätzlich probiert sie sich selbst im programmieren und recherchiert im Internet nach nützlichen Codes.
   Vanessa -> make actor disappear at edge
-Farhat -> übtr programmieren
+  
+## 22-02-2022
+ Antonia hat bei den Alus, den Hindernisse, nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antigen das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
+  
+## 23-02-2022
+Herr Buhl hat Vanessa und Antonia eine weitere, ausführlichere Ausführung in Greenfoot gegeben und ihnen weitere Codes und Möglichkeiten präsentiert. Auch hat er den Fehler in Antonias Alu-Timer gefunden (ein ";", wo es nicht hingehörte). Der Code funktioniert nun also.
+  
+## 01-03-2022
+Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie in den letzten 2 Wochen programmiert hat. Auch hat sie einen neuen Start-Screen designt. 
+  To-Do heute:
+  - Start Screen einführen
+  - Berührung Alu tötet?
+  - echtes Corona Kostüm einfügen
+  - Alle konstanten (Timer, random number) wieder normal einstellen
+  - Bilder in GitHub eintragen
+  
   
 </details>
   
