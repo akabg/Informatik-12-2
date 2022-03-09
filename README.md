@@ -94,7 +94,7 @@ Dies sind zusammengefasst unsere Codes:
 Unsere Gruppe hat heute angefangen, über neue Projekt Ideen nachzudenken. Anschließend haben wir recherchiert, welche Programme und Programmiersprachen für Anfänger geeignet sind. Dies war etwas schwierig, einfach wegen der Fülle an Auswahlmöglichkeiten, die online vorhandens sind. Mit Hilfe einer Beratung von Herrn Buhl haben wir uns dazu entschlossen, ein neues Coding Programm auszuprobieren und nicht mehr in Blocksprache zu coden, sondern uns an das "echte" Coden zu wagen. Schnell sind wir zu Greenfoot gelangt, ein für Ausbildungszwecke entwickeltes Programm, bei welchem man mit Java programmiert. Herr Buhl hat uns einen großen Teil der Stunde, die Basics von Greenfoot mit "Actors" und "Worlds" erklärt und wie diese miteinander interagieren und man programmiert.
 
 ## 22-12-2021
-Wir haben  uns erste Spiele bei Greenfoot angeschaut, wie ein Raketenspiel, um das Prinzip dahinter besser zu verstehen.
+Wir haben uns erste Spiele bei Greenfoot angeschaut, wie ein Raketenspiel, um das Prinzip dahinter besser zu verstehen.
 
 ## 11-01-2022
 
@@ -188,7 +188,7 @@ Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnl
 Vanessa und Antonia haben sich aufgeteilt und coden jeweils beide an einer der beiden App-Versionen weiter. Am Ende wollen wir dann die Funktionen, die uns am besten gefallen, zu einem Spiel zusammensetzen. 
 So hat Vanessa weiter an einer "Schieß-Funktion" gecodet, die wir später für Hindernisse nutzen wollen, die auf unseren Protagonisten schießen, oder er kann auf diese schießen.
 Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen Startbutton-actor eingeführt, bei welchem auf Knopfdruck das Spiel startet. Da Greenfoot andauernd abgestürzt ist, konnte sie ihn bisher nicht testen und muss dies nächste Stunde tun. Zuhause hat Antonia den GitHub für die letzten Tage geupdatet.
-Zusatz: Vanessa und Antonia haben sich falsch verstanden und an zwei verschiedenen "Arten" des Spiels gearbeitet. Wir haben uns am Ende für die Version entschieden, in der wir als "Antigen" den Virus durch den Bildschirm jagen. Aufgrund dieses Missverständnis mussten sämtliche Codes, die Vanessa geschrieben hat verworfen werden. 
+Zusatz: Da Vanessa und Antonia  sich falsch verstanden haben und an zwei verschiedenen "Arten" des Spiels gearbeitet haben (vgl 08.02.2022), mussten wir sämtliche Codes, die Vanessa eigentlich programmiert hatte, verwerfen. 
   
   Screenshots codes!
 
