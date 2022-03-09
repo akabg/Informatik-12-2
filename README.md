@@ -141,15 +141,18 @@ Ausgefallen
 Ausgefallen
 
 ## 01-02-2022
-Vanessa hat angefangen das Spiel zu programmieren. Nachdem sie das Greenfoot Buch zum grössten Teil durchgelesen hat und Zuhause Videos zum Programm geschaut hat, hat sie probiert, ein "Test-Spiel" mit ähnlichen Funktionen zum geplanten Endspiel zu erstellen. Zunächst hat sie die drei Actors "pizza", "leaf" und "shots" in die Welt gesetzt. Dabei soll "pizza" die "Impfgegner" darstellen und "leaf" die "Impfung". Der Plan war, dass "pizza" den Actor "shots" beim drücken der Leertaste auf "leaf" schiesst. Dabei kann sich Pizza auch noch oben und nach unten bewegen.
+Vanessa hat angefangen das Spiel zu programmieren. Nachdem sie das Greenfoot Buch zum grössten Teil durchgelesen hat und Zuhause Videos zum Programm geschaut hat, hat sie probiert, ein "Test-Spiel" mit ähnlichen Funktionen zum geplanten Endspiel zu erstellen. Zunächst hat sie die drei Actors "pizza", "leaf" und "shots" in die Welt gesetzt. Dabei soll "pizza" das "Antigen" darstellen und "leaf" das "Coronavirus". Das Spiel sollte demnach daraus bestehen, dass das Antigen probiert, den sich durchgehend bewegenden "Virus" abzuschießen. Der erste Schritt war also, dass "pizza" den Actor "shots" beim drücken der Leertaste auf "leaf" schiesst. Dabei soll sich Pizza später auch noch nach oben und nach unten bewegen können. Die Funktion des Abschießens wurde diese Stunde programmiert:
   
 ![game(1)](https://user-images.githubusercontent.com/88386321/154082477-b08c25bf-9796-41f2-98ac-1d65115aed51.PNG)
+  
 Screen mit den Actors "pizza" und "leaf"
   
 ![game(2)](https://user-images.githubusercontent.com/88386321/154082674-6b0cf9e6-8f13-4abf-8ee1-a685c39c30a3.PNG)
-Screen, nachdem "shots" geschossen wurde
+  
+Screen, nachdem "shots" durch drücken der Leertaste geschossen wurde
 
 Codes zum abschiessen von "shots":
+
 ![pizzacodes](https://user-images.githubusercontent.com/88386321/154083433-de33620e-d32b-4065-b185-f1709b1e6196.PNG)
 
 
@@ -186,20 +189,26 @@ Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es
 </p>
   
 Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnliche Tier stellt den Gegner da, das K steuert der Spieler. Wichtig zu erwähnen ist hier, das alles, sowohl die Kostüme der actors als auch der Hintergrund bisher nur Platzhalter sind und sich noch ändern sollen.
+  
+Zusatz: Da Vanessa und Antonia  sich falsch verstanden haben und an zwei verschiedenen "Arten" des Spiels gearbeitet haben (vgl 08.02.2022), mussten wir sämtliche Codes, die Vanessa eigentlich programmiert hatte, verwerfen.
+  
+Vanessa hat also Plan geändert und die Rollen von "pizza" und "leaf" umgedreht. "Pizza" soll nun das Antigen sein, welches vom Actor "leaf", unserem Aluhüttchen, abgeschossen werden soll. Die Funktionen, des sich Hoch- und Runterbewegens waren also nicht mehr nötig, genauso wie das weitere Programmieren des sich automatisch Hoch- und Runterbewegenden "leaf"-Actor. Nachdem Antonia und Vanessa das Missverständnis geklärt haben und sich dazu entschieden haben, an Antonias "Jagd"-Version weiter zu codieren, hat sich Vanessa mit unterschiedlichen Codes auseinander gesetzt, die man in die richtige Version einsetzen könnte. Der nächste Schritt war für sie, ein Code zu finden, durch welchen der Actor "pizza" verschwindet, sobald er vom abgeschossenen Actor "Shots" berührt wird. 
+  
+Code für das Verschwinden von "pizza" nach dem Abschießen von "Shots":
+  
+![shotnewcode](https://user-images.githubusercontent.com/88386321/157477273-3c111640-72f4-4b73-8a77-35ed253a602f.jpeg)
+
 
 ## 09-02-2022
 Vanessa und Antonia haben sich aufgeteilt und coden jeweils beide an einer der beiden App-Versionen weiter. Am Ende wollen wir dann die Funktionen, die uns am besten gefallen, zu einem Spiel zusammensetzen. 
 So hat Vanessa weiter an einer "Schieß-Funktion" gecodet, die wir später für Hindernisse nutzen wollen, die auf unseren Protagonisten schießen, oder er kann auf diese schießen.
 Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen Startbutton-actor eingeführt, bei welchem auf Knopfdruck das Spiel startet. Da Greenfoot andauernd abgestürzt ist, konnte sie ihn bisher nicht testen und muss dies nächste Stunde tun. Zuhause hat Antonia den GitHub für die letzten Tage geupdatet.
-Zusatz: Da Vanessa und Antonia  sich falsch verstanden haben und an zwei verschiedenen "Arten" des Spiels gearbeitet haben (vgl 08.02.2022), mussten wir sämtliche Codes, die Vanessa eigentlich programmiert hatte, verwerfen. 
-  
-  Screenshots codes!
 
 ## 15-02-2022
 Antonia hat einen Start Screen als neue World eingefügt, die als erstes erscheint, wenn man das Spiel startet. Darauf ist ein Actor mittig platziert, welcher wie ein Startknopf aussieht. Wenn man auf "Button" drückt, erscheint der Gaming Screen und der Coronavirus fängt schon an sich zu bewegen. 
 Den Actor, den der Spieler selbst steuert, das Antigen, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antigens arbeiten nur, wenn Boolean true ist. 
 Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antigen gegen einen Alu stößt, ist das Spiel verloren.
-Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings habe ich dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb ich in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, habe ich eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
+Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings hat sie dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb sie in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, hat sie eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
   
 <p align="center">
 <img width="700" alt="startbutton" src="https://user-images.githubusercontent.com/88386173/156214139-04980902-3b87-42fd-bec8-1a2497f6e4b9.PNG" />
@@ -212,20 +221,31 @@ Dies ist der StartButton, der das Spiel startet.
   
 Dies ist der Code, damit Gegner nach einer zufälligen Zeit auftauchen und das Spiel verloren ist, wenn das Antigen Alu berührt.
 
-Vanessa hat währendessen an der "Schiess-Funktion" des Spiels weitergearbeitet. In der Welt, wo "Pizza" das Antigen sein sollte und "Leaf" der gejagte Coronavirus, sollte Antigen erstmal die Möglichkeit haben, sich von oben nach unten auf dem Bildschirm zu bewegen, um den sich versetzt und automatisch hin und her bewegenden Virus abzuschiessen. Sie hat also zunächst an diese Funktion des Antigens gearbeitet. Der Spieler sollte in der Lage sein, sich mit den Pfeiltasten nach oben und unten zu bewegen.  
+Vanessa hat sich mit der Frage beschäftigt, wie die Shots, nachdem sie geschossen wurden, verschwinden können. Nach dem Abschießen bliben diese natürlich am Rand des Spiels hängen, was ja im wahren Spielen vermieden werden sollte. Sie hat sich also im Forum und in der Greenfoot-Bibliothek über mögliche Codes informiert und auch verschiedene ausprobiert. Jedoch hat keiner von diesen funktioniert. Ihre Aufgabe war es also, nach einem passenden Code zu suchen. Weiter beschäftigt sich Vanessa auch mit der Frage, wie "Shots" automatisch geschossen werden kann, da diese Funktion zu einem Actor gehört, den wir nicht kontrollieren sollen, sondern der den Spieler in verschiedenen Zeitabständen abschießen soll.
   
 ## 16-02-2022
 Antonia hat heute den Start-Button auf dem Startscreen resized, da dieser viel zu groß war. Dazu hat sie die beiden End-Screens loose and win provisorisch erstellt und ins Spiel eingebettet. Bis zur nächsten Stunde will sie die endgültigen Screens für das Ende designen.   
 Farhat war heute auch wieder da und schaut uns über die Schulter. Zusätzlich probiert sie sich selbst im programmieren und recherchiert im Internet nach nützlichen Codes.
-Vanessa -> make actor disappear at edge
   
 <p align="center">
 <img width="500" alt="startbuttonsize" src="https://user-images.githubusercontent.com/88386173/156215523-88df1fe1-7f48-4fac-b59a-f9c46c3ac9d1.PNG" />
 </p> 
 Dieser Code passt die Größe des Buttons an.
   
+Vanessa hat zusammen mit Herrn Buhl den richtigen Code zum Verschwinden von "Shots" am Rand gefunden und diesem im Spiel eingebaut (einen Code, den sie unter anderem schon probiert hatte, jedoch falsch programmiert hatte). Außerdem hat sie eine Lösung gefunden, wodurch "Shots" in bestimmten Zeitabständen vom Actor "leaf" geschossen werden kann. Diesen Code plant sie nächste Stunde zu programmieren.
+  
+![shotnewcode](https://user-images.githubusercontent.com/88386321/157490166-a99244e7-9ea2-4947-a0ad-9d43e904a691.jpeg)
+
+Code der "Shots"-Klasse zum Verschwinden 
+  
 ## 22-02-2022
- Antonia hat bei den Alus (die Hindernisse) nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antigen das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
+Antonia hat bei den Alus (die Hindernisse) nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antigen das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
+
+Vanessa hat hingegen die Funktion zum automatischen Schießen von "Shots" codiert. Dafür hat sie in der Bowser-Klasse von "leaf" die Maximale und Minimale Verzögerung zwischen den Schüssen angegeben, wobei sie die Parameter 40 und 160 gewählt hat. Der Timer, welche die Funktion "shoot()" der "leaf" Klasse aufruft, besteht aus der Summe von dem Minimalwert (40) und eine willkürliche Zahl zwischen den Parametern, wobei diese Funktion wiederholt läuft.
+  
+![leafcodenew](https://user-images.githubusercontent.com/88386321/157482899-57747368-0619-40a3-b1b0-5dbda127a2e0.PNG)
+
+Erste Code: Timer der "Shots"
   
 ## 23-02-2022
 Herr Buhl hat Vanessa und Antonia eine weitere, ausführlichere Ausführung in Greenfoot gegeben und ihnen weitere Codes und Möglichkeiten präsentiert. Auch hat er den Fehler in Antonias Alu-Timer gefunden (ein ";", wo es nicht hingehörte). Der Code funktioniert nun also.
@@ -236,11 +256,21 @@ Herr Buhl hat Vanessa und Antonia eine weitere, ausführlichere Ausführung in G
   
 Das fehlerhafte Simokolon kann man in der if Funktion sehen. Ohne dieses funktioniert der Code.
   
+Herrn Buhl konnte Vanessa mit dem Problem der willkürlichen Schüsse helfen. Da "Shots" nicht nur horizontal und in eine Richtung geschossen werden sollte, sondern in mehreren Richtungen, bedarft es auch einen entsprechenden Code. Vanessa hatte zunächt mit der Funktion Greenfoot.getRandomNumber einen Code zu erstellen, durch welchen eine willkürliche Nummer ausgesucht werden solle, die durch andere Codes eine Schussrichtung angeben sollte. Dies hatte leider nicht funktioniert. Dennoch konnte Herrn Buhl uns dabei helfen, einen anderen Code zu finden.
+  
+![shotnewcode](https://user-images.githubusercontent.com/88386321/157486181-e1497787-44db-4ec1-b6de-a205c3cb10f4.PNG)
+
+Der Code gehört zur "Shots"-Klasse. Der obere Teil in der Bowser-Klasse gehört zur Ausführung der Funktion. Der Code der "leaf"-Klasse ruft die Funktion für den Actor "Shots" auf.
+  
+![leafcodenew](https://user-images.githubusercontent.com/88386321/157486779-1d5f9549-15e1-44bd-8907-e5eade30cbbb.PNG)
+
+Der zweite Code gehört zu "leaf" und basiert auf dem schon erahnten Prinzip von "Greenfoot.getRandomNumber". Er dient zur willkürlichen Schieß-Funktion von "leaf"
+
+  
 ## 01-03-2022
 Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie in den letzten 2 Wochen programmiert hat. Sie hat auch einen neuen Start-Screen designt. Im Unterricht hat sie dann direkt den neuen Start-Screen eingeführt. Dann hat sie eine kleine Animation programmiert, die abläuft, nachdem man den StartButton gedrückt hat (dieser verschwindet dann). Eine Spritze erscheint im Bild und bewegt sich nach links. An einer bestimmten Koordinate (X/Y), setzt sie ein Antigen in die Welt (der Körper ist nun geimpft). Die Spritze bewegt sich weiter, bis sie den linken Rand berührt, dann öffnet sich das eigentliche Spiel. Nachdem dies funktioniert hat, hat sie das provisorische Corona Kostüm gegen das Echte ausgetauscht. Danach wurden alle Actors so unbenannt, dass sie am Anfang großgeschrieben werden und dementsprechend die Codes noch überarbeitet.
 Farhat hat als erstes nach einem Bild für unseren Alu-Actor gesucht. Danach hat sie auch gecodet. Sie hat ausprobiert, wie man Soundeffekte bei bestimmten Interaktionen und allgemein eine Melodie im Hintergrund einrichten kann. Dies wollen wir, wenn die Zeit es zulässt, noch auf unser Spiel übertragen.
-Vanessa:
-Zum Schluss der Stunde haben wir das Erste Mal probiert, die seperat programmierten Codes zusammenzufügen. Dies heißt konkret, dass wir Alu nun auch schießen lassen wollen. Die Codes an sich haben keine Fehler, aber sie funktionieren zusammen nicht so gut, wie einzeln. Wir werden nun versuchen den Fehler zu finden. Sonst haben wir die Idee, das wir 1 statischen Alu zusätzlich einführen, der immer da ist, und als einziger schießt. 
+Zum Schluss der Stunde hat Vanessa das Erste Mal probiert, die seperat programmierten Codes zusammenzufügen. Dies heißt konkret, dass wir Alu nun auch schießen lassen wollen. Die Codes an sich haben keine Fehler, aber sie funktionieren zusammen nicht so gut, wie einzeln. Wir werden nun versuchen den Fehler zu finden. Sonst haben wir die Idee, das wir 1 statischen Alu zusätzlich einführen, der immer da ist, und als einziger schießt. An diese Funktion soll nun Vanessa arbeiten.
 
 <p align="center">
 <img width="500" alt="neuerbutton" src="https://user-images.githubusercontent.com/88386173/156214849-93ae399c-836e-4dd4-a684-2fcf001d4ec2.PNG" />
@@ -255,12 +285,13 @@ Der StartButton wurde für die Animation am Anfang umfunktioniert. Wenn dieser g
 Dies ist der Code für den neuen Actor "Spritze". Die Spritze bewegt sich nach links (also auf der X-Achse immer minus 1) und auf dem Weg setzt sie bei 200/200 ein Antigen ab, der Körper ist nun also "geimpft". Wenn sie den Rand berührt (ifAtEdge), wird das eigentliche Spiel gestartet.
 
 ## 02-03-2022
+Da wir mit der Entwicklung des Spiels schon ziemlich weit sind und planen, in der nächsten Doppelstunde den Fehler der Alus zu beheben, haben sich Antonia und Vanessa zusammengesetzt um weitere Ideen für das Spiel zu konzipieren. Sie sind zu dem Entschluss gekommen, dass sie den von Farhat gesuchten Code für Soundeffekte einbauen wollen und auch an eine Funktion arbeiten wollen, die Schriftzüge (z.B. Hilfe, rette mich vor Corona!) einblenden lässt. Letztere FUnktion wird sich Antonia widmen während Vanessa probiert den Fehler zu beheben. Außerdem hat Vanessa diese Stunde sämtliche Screenshots von Codes gemacht und einige alte Codes nachgestellt, die sie vergessen hatte, zu screenshoten.
  
 ## 08-03-2022
 Heute ist der Unterricht wegen eines Ausfluges ausgefallen.
   
 ## 09-03-2022
-  
+Heute hat sich Vanessa weiterhin mit dem Problem der Aluhütte beschäftigt. Die verschiedenen Codes hat sie alle abgegleicht und verschiedene Fehler (Falsche Benennung der Actors) zu korrigieren. Es scheint jedoch, dass es immmer noch zu Fehler kommt, weswegen wir nun beschlossen haben, zwei verschiedene (Alu-)Actors zu erstellen, von denen einer die programmierte Schießfunktion besitzt und der andere willkürlich, als Hindeernis, spawnt. Außerdem hat Vanessa Zuhause ihre fehlende Einträge nachgetragen und den Github vervollständigt.   
   
 </details>
   
