@@ -252,6 +252,11 @@ Der StartButton wurde für die Animation am Anfang umfunktioniert. Wenn dieser g
 Dies ist der Code für den neuen Actor "Spritze". Die Spritze bewegt sich nach links (also auf der X-Achse immer minus 1) und auf dem Weg setzt sie bei 200/200 ein Antigen ab, der Körper ist nun also "geimpft". Wenn sie den Rand berührt (ifAtEdge), wird das eigentliche Spiel gestartet.
 
 ## 02-03-2022
+ 
+## 08-03-2022
+Heute ist der Unterricht wegen eines Ausfluges ausgefallen.
+  
+## 09-03-2022
   
   
 </details>
