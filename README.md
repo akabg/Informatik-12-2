@@ -17,30 +17,32 @@
 <details>
 <summary>Vorstellung</summary>
 <br>
-Das ist unser Projekt....
+Unsere Gruppe, bestehend aus Antonia, Farhat und Vanessa hat ein Spiel namens **CatchCorona** programmiert. 
+Die Idee des Spiels ist es, dass der Spieler den Antikörper steuert. Dabei muss er mit Hilfe der Pfeiltasten das Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeiten zu erhöhen gibt es auch Hindernisse, denen man ausweichen muss, oder die auf einen schießen, die Aluhüte. Letztendlich hat man auch nur eine bestimmte Zeit zum einfangen, da ein Timer runterläuft.
+Programmiert haben wir mit Greenfoot, eine interaktive Java-Entwicklungsumgebung. Dies war für alle in der Gruppe das erste "echte" programmieren.
 </details>
 
-<details>
-<summary>Die Idee</summary>
-<br>
-Unsere Idee ist es...
-</details>
 
 <details>
 <summary>Aufbau</summary>
 <br>
 
 ### 1. Start Screen
-
+Wenn man das Spiel startet, trifft man als erste auf den StartScreen. Wenn man den StartButton drückt, verschwindet er und stattdessen wird eine Spritze in die Welt gesetzt, die die Impfung darstellen soll. Zusätzlich wird der Schriftzug "Hilfe, rette mich vor Corona!" angezeigt. 
+Die Spritze bewegt sich über den Bildschirm nach links und setzt auf halben Wege ein Anitkörper (das der Spiler später steuert) in die Welt. Wenn es den Rand des Screens berührt, wird der GameScreen geöffnet.
+ 
 ### 2. Game Screen
+Hier beginnt das eigentliche Spiel. Das zu fangende Objekt, Corona, fängt sofort an sich zufällig über den Bildschirm zu bewegen. Der zu steuernde Antikörper fängt erst an sich zu bewegen und sich steuern zu lassen, wenn man die Eingabetaste drückt. Auch die Hindernisse spawnen direkt.
+Man spielt jetzt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit Corona zu fangen.
+Am Ende des Spiels öffnet sich je nach Ausgang, entweder der Win-Screen oder der Loose-Screen.
 
 ### 3.1 Win-Screen
-Du gewinnst, wenn Antigen Corona berührt.
+Du gewinnst, wenn Antikörper Corona berührt.
 
 ### 3.2 Loose-Screen
-Du landets hier wenn:
-- Antigen Alu berührst
-- Antigen abgeschossen wird
+Du landest hier wenn:
+- Antikörper Alu berührt
+- Antikörper abgeschossen wird
 - der Timer abgelaufen ist
   
 </details>
@@ -48,14 +50,24 @@ Du landets hier wenn:
 <details>
 <summary>World (Setting) </summary>
 <br>
-Es spielt in einer Ader, die wir wie folgt programmiert haben...
-</details>
+Es gibt 4 verschiedene Screens/worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
+Inhalt StartScreen:
+- StartButton
+- Schriftzug
+- Spritze
+- Nicht steuerbarer Antikörper
+  
+Inhalt
+  
+ /details>
 
 <details>
 <summary>Actors</summary>
 <br>
   
 ## Antikörper
+  
+Der Antikörper wird auf dem Start-Screen in die welt gesetzt.
 
 <p align="center">
   <img width="250" alt="Antikörper" src="https://user-images.githubusercontent.com/88386173/152698020-950b4e70-1960-4ee4-9d61-b14cc83ca149.PNG" />
@@ -141,7 +153,7 @@ Ausgefallen
 Ausgefallen
 
 ## 01-02-2022
-Vanessa hat angefangen das Spiel zu programmieren. Nachdem sie das Greenfoot Buch zum grössten Teil durchgelesen hat und Zuhause Videos zum Programm geschaut hat, hat sie probiert, ein "Test-Spiel" mit ähnlichen Funktionen zum geplanten Endspiel zu erstellen. Zunächst hat sie die drei Actors "pizza", "leaf" und "shots" in die Welt gesetzt. Dabei soll "pizza" das "Antigen" darstellen und "leaf" das "Coronavirus". Das Spiel sollte demnach daraus bestehen, dass das Antigen probiert, den sich durchgehend bewegenden "Virus" abzuschießen. Der erste Schritt war also, dass "pizza" den Actor "shots" beim drücken der Leertaste auf "leaf" schiesst. Dabei soll sich Pizza später auch noch nach oben und nach unten bewegen können. Die Funktion des Abschießens wurde diese Stunde programmiert:
+Vanessa hat angefangen das Spiel zu programmieren. Nachdem sie das Greenfoot Buch zum grössten Teil durchgelesen hat und Zuhause Videos zum Programm geschaut hat, hat sie probiert, ein "Test-Spiel" mit ähnlichen Funktionen zum geplanten Endspiel zu erstellen. Zunächst hat sie die drei Actors "pizza", "leaf" und "shots" in die Welt gesetzt. Dabei soll "pizza" das "Antikörper" darstellen und "leaf" das "Coronavirus". Das Spiel sollte demnach daraus bestehen, dass das Antikörper probiert, den sich durchgehend bewegenden "Virus" abzuschießen. Der erste Schritt war also, dass "pizza" den Actor "shots" beim drücken der Leertaste auf "leaf" schiesst. Dabei soll sich Pizza später auch noch nach oben und nach unten bewegen können. Die Funktion des Abschießens wurde diese Stunde programmiert:
   
 ![game(1)](https://user-images.githubusercontent.com/88386321/154082477-b08c25bf-9796-41f2-98ac-1d65115aed51.PNG)
   
@@ -168,7 +180,7 @@ Bisher sind unsere actors nur durch "Platzsteller" besetzt, da die Bilder, die A
 <img width="900" alt="code world" src="https://user-images.githubusercontent.com/88386173/153778984-662cd5d7-3dc2-49ce-9715-49a6f12ccd18.png" />
 </p>
   
-Das hier ist die Code Übersicht unserer World, in der das eigentliche Spiel stattfindet. Hier werden die beiden Charaktere Corona und Antigen zu Anfang des Spiels hinzugefügt. 
+Das hier ist die Code Übersicht unserer World, in der das eigentliche Spiel stattfindet. Hier werden die beiden Charaktere Corona und Antikörper zu Anfang des Spiels hinzugefügt. 
   
 <p align="center">
 <img width="900" alt="code antigen" src="https://user-images.githubusercontent.com/88386173/153778772-71122d78-4177-434e-9893-a7079ab405be.png" />
@@ -192,7 +204,7 @@ Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnl
   
 Zusatz: Da Vanessa und Antonia  sich falsch verstanden haben und an zwei verschiedenen "Arten" des Spiels gearbeitet haben (vgl 08.02.2022), mussten wir sämtliche Codes, die Vanessa eigentlich programmiert hatte, verwerfen.
   
-Vanessa hat also Plan geändert und die Rollen von "pizza" und "leaf" umgedreht. "Pizza" soll nun das Antigen sein, welches vom Actor "leaf", unserem Aluhüttchen, abgeschossen werden soll. Die Funktionen, des sich Hoch- und Runterbewegens waren also nicht mehr nötig, genauso wie das weitere Programmieren des sich automatisch Hoch- und Runterbewegenden "leaf"-Actor. Nachdem Antonia und Vanessa das Missverständnis geklärt haben und sich dazu entschieden haben, an Antonias "Jagd"-Version weiter zu codieren, hat sich Vanessa mit unterschiedlichen Codes auseinander gesetzt, die man in die richtige Version einsetzen könnte. Der nächste Schritt war für sie, ein Code zu finden, durch welchen der Actor "pizza" verschwindet, sobald er vom abgeschossenen Actor "Shots" berührt wird. 
+Vanessa hat also Plan geändert und die Rollen von "pizza" und "leaf" umgedreht. "Pizza" soll nun das Antikörper sein, welches vom Actor "leaf", unserem Aluhüttchen, abgeschossen werden soll. Die Funktionen, des sich Hoch- und Runterbewegens waren also nicht mehr nötig, genauso wie das weitere Programmieren des sich automatisch Hoch- und Runterbewegenden "leaf"-Actor. Nachdem Antonia und Vanessa das Missverständnis geklärt haben und sich dazu entschieden haben, an Antonias "Jagd"-Version weiter zu codieren, hat sich Vanessa mit unterschiedlichen Codes auseinander gesetzt, die man in die richtige Version einsetzen könnte. Der nächste Schritt war für sie, ein Code zu finden, durch welchen der Actor "pizza" verschwindet, sobald er vom abgeschossenen Actor "Shots" berührt wird. 
   
 Code für das Verschwinden von "pizza" nach dem Abschießen von "Shots":
   
@@ -206,8 +218,8 @@ Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen St
 
 ## 15-02-2022
 Antonia hat einen Start Screen als neue World eingefügt, die als erstes erscheint, wenn man das Spiel startet. Darauf ist ein Actor mittig platziert, welcher wie ein Startknopf aussieht. Wenn man auf "Button" drückt, erscheint der Gaming Screen und der Coronavirus fängt schon an sich zu bewegen. 
-Den Actor, den der Spieler selbst steuert, das Antigen, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antigens arbeiten nur, wenn Boolean true ist. 
-Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antigen gegen einen Alu stößt, ist das Spiel verloren.
+Den Actor, den der Spieler selbst steuert, das Antikörper, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antikörper arbeiten nur, wenn Boolean true ist. 
+Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antikörper gegen einen Alu stößt, ist das Spiel verloren.
 Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings hat sie dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb sie in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, hat sie eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
   
 <p align="center">
@@ -219,7 +231,7 @@ Dies ist der StartButton, der das Spiel startet.
 <img width="700" alt="gegner" src="https://user-images.githubusercontent.com/88386173/156213672-2d6295b6-b3cb-4e48-82a2-829dd9057b8e.PNG" />
 </p>
   
-Dies ist der Code, damit Gegner nach einer zufälligen Zeit auftauchen und das Spiel verloren ist, wenn das Antigen Alu berührt.
+Dies ist der Code, damit Gegner nach einer zufälligen Zeit auftauchen und das Spiel verloren ist, wenn das Antikörper Alu berührt.
 
 Vanessa hat sich mit der Frage beschäftigt, wie die Shots, nachdem sie geschossen wurden, verschwinden können. Nach dem Abschießen bliben diese natürlich am Rand des Spiels hängen, was ja im wahren Spielen vermieden werden sollte. Sie hat sich also im Forum und in der Greenfoot-Bibliothek über mögliche Codes informiert und auch verschiedene ausprobiert. Jedoch hat keiner von diesen funktioniert. Ihre Aufgabe war es also, nach einem passenden Code zu suchen. Weiter beschäftigt sich Vanessa auch mit der Frage, wie "Shots" automatisch geschossen werden kann, da diese Funktion zu einem Actor gehört, den wir nicht kontrollieren sollen, sondern der den Spieler in verschiedenen Zeitabständen abschießen soll.
   
@@ -239,7 +251,7 @@ Vanessa hat zusammen mit Herrn Buhl den richtigen Code zum Verschwinden von "Sho
 Code der "Shots"-Klasse zum Verschwinden 
   
 ## 22-02-2022
-Antonia hat bei den Alus (die Hindernisse) nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antigen das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
+Antonia hat bei den Alus (die Hindernisse) nun versucht einen Timer einzuführen. Wenn dieser abgelaufen ist, soll das spezifische Alu wieder verschwinden. Allerdings scheint irgendwo im Code ein Fehler zu liegen, den sie partout nicht finden kann. Denn anstatt nach einigen Sekunden zu veschwinden, verschwindet Alu sofort und taucht auch nie wieder auf. Da sie den Fehler im Code vorerst nicht finden kann, macht sie erstmal was anderes. Sie führt die endgültigen Loose- and Win-Screens ein. Dazu ändert sie vom Antikörper das provisorische Kostüm (ein roter Kreis mit "K" drin) zu dem endgültigen Kostüm, dass sie extra zuhause gezeichnet hat.
 
 Vanessa hat hingegen die Funktion zum automatischen Schießen von "Shots" codiert. Dafür hat sie in der Bowser-Klasse von "leaf" die Maximale und Minimale Verzögerung zwischen den Schüssen angegeben, wobei sie die Parameter 40 und 160 gewählt hat. Der Timer, welche die Funktion "shoot()" der "leaf" Klasse aufruft, besteht aus der Summe von dem Minimalwert (40) und eine willkürliche Zahl zwischen den Parametern, wobei diese Funktion wiederholt läuft.
   
@@ -268,7 +280,7 @@ Der zweite Code gehört zu "leaf" und basiert auf dem schon erahnten Prinzip von
 
   
 ## 01-03-2022
-Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie in den letzten 2 Wochen programmiert hat. Sie hat auch einen neuen Start-Screen designt. Im Unterricht hat sie dann direkt den neuen Start-Screen eingeführt. Dann hat sie eine kleine Animation programmiert, die abläuft, nachdem man den StartButton gedrückt hat (dieser verschwindet dann). Eine Spritze erscheint im Bild und bewegt sich nach links. An einer bestimmten Koordinate (X/Y), setzt sie ein Antigen in die Welt (der Körper ist nun geimpft). Die Spritze bewegt sich weiter, bis sie den linken Rand berührt, dann öffnet sich das eigentliche Spiel. Nachdem dies funktioniert hat, hat sie das provisorische Corona Kostüm gegen das Echte ausgetauscht. Danach wurden alle Actors so unbenannt, dass sie am Anfang großgeschrieben werden und dementsprechend die Codes noch überarbeitet.
+Antonia hat zuhause den GitHub aktualisiert und die Sachen eingetragen, die sie in den letzten 2 Wochen programmiert hat. Sie hat auch einen neuen Start-Screen designt. Im Unterricht hat sie dann direkt den neuen Start-Screen eingeführt. Dann hat sie eine kleine Animation programmiert, die abläuft, nachdem man den StartButton gedrückt hat (dieser verschwindet dann). Eine Spritze erscheint im Bild und bewegt sich nach links. An einer bestimmten Koordinate (X/Y), setzt sie ein Antikörper in die Welt (der Körper ist nun geimpft). Die Spritze bewegt sich weiter, bis sie den linken Rand berührt, dann öffnet sich das eigentliche Spiel. Nachdem dies funktioniert hat, hat sie das provisorische Corona Kostüm gegen das Echte ausgetauscht. Danach wurden alle Actors so unbenannt, dass sie am Anfang großgeschrieben werden und dementsprechend die Codes noch überarbeitet.
 Farhat hat als erstes nach einem Bild für unseren Alu-Actor gesucht. Danach hat sie auch gecodet. Sie hat ausprobiert, wie man Soundeffekte bei bestimmten Interaktionen und allgemein eine Melodie im Hintergrund einrichten kann. Dies wollen wir, wenn die Zeit es zulässt, noch auf unser Spiel übertragen.
 Zum Schluss der Stunde hat Vanessa das Erste Mal probiert, die seperat programmierten Codes zusammenzufügen. Dies heißt konkret, dass wir Alu nun auch schießen lassen wollen. Die Codes an sich haben keine Fehler, aber sie funktionieren zusammen nicht so gut, wie einzeln. Wir werden nun versuchen den Fehler zu finden. Sonst haben wir die Idee, das wir 1 statischen Alu zusätzlich einführen, der immer da ist, und als einziger schießt. An diese Funktion soll nun Vanessa arbeiten.
 
@@ -282,16 +294,22 @@ Der StartButton wurde für die Animation am Anfang umfunktioniert. Wenn dieser g
 <img width="700" alt="Spritzecode" src="https://user-images.githubusercontent.com/88386173/156215546-19f20811-6cd7-43c5-9f5f-dd658dcce9c3.PNG" />
 </p> 
   
-Dies ist der Code für den neuen Actor "Spritze". Die Spritze bewegt sich nach links (also auf der X-Achse immer minus 1) und auf dem Weg setzt sie bei 200/200 ein Antigen ab, der Körper ist nun also "geimpft". Wenn sie den Rand berührt (ifAtEdge), wird das eigentliche Spiel gestartet.
+Dies ist der Code für den neuen Actor "Spritze". Die Spritze bewegt sich nach links (also auf der X-Achse immer minus 1) und auf dem Weg setzt sie bei 200/200 ein Antikörper ab, der Körper ist nun also "geimpft". Wenn sie den Rand berührt (ifAtEdge), wird das eigentliche Spiel gestartet.
 
 ## 02-03-2022
-Da wir mit der Entwicklung des Spiels schon ziemlich weit sind und planen, in der nächsten Doppelstunde den Fehler der Alus zu beheben, haben sich Antonia und Vanessa zusammengesetzt um weitere Ideen für das Spiel zu konzipieren. Sie sind zu dem Entschluss gekommen, dass sie den von Farhat gesuchten Code für Soundeffekte einbauen wollen und auch an eine Funktion arbeiten wollen, die Schriftzüge (z.B. Hilfe, rette mich vor Corona!) einblenden lässt. Letztere FUnktion wird sich Antonia widmen während Vanessa probiert den Fehler zu beheben. Außerdem hat Vanessa diese Stunde sämtliche Screenshots von Codes gemacht und einige alte Codes nachgestellt, die sie vergessen hatte, zu screenshoten.
+Da wir mit der Entwicklung des Spiels schon ziemlich weit sind und planen, in der nächsten Doppelstunde den Fehler der Alus zu beheben, haben sich Antonia und Vanessa zusammengesetzt um weitere Ideen für das Spiel zu konzipieren. Sie sind zu dem Entschluss gekommen, dass sie den von Farhat gesuchten Code für Soundeffekte einbauen wollen und auch an eine Funktion arbeiten wollen, die Schriftzüge (z.B. Hilfe, rette mich vor Corona!) einblenden lässt. Letztere Fuktion wird sich Antonia widmen während Vanessa probiert den Fehler zu beheben. Außerdem hat Vanessa diese Stunde sämtliche Screenshots von Codes gemacht und einige alte Codes nachgestellt, die sie vergessen hatte, zu screenshoten.
  
 ## 08-03-2022
 Heute ist der Unterricht wegen eines Ausfluges ausgefallen.
   
 ## 09-03-2022
 Heute hat sich Vanessa weiterhin mit dem Problem der Aluhütte beschäftigt. Die verschiedenen Codes hat sie alle abgegleicht und verschiedene Fehler (Falsche Benennung der Actors) zu korrigieren. Es scheint jedoch, dass es immmer noch zu Fehler kommt, weswegen wir nun beschlossen haben, zwei verschiedene (Alu-)Actors zu erstellen, von denen einer die programmierte Schießfunktion besitzt und der andere willkürlich, als Hindeernis, spawnt. Außerdem hat Vanessa Zuhause ihre fehlende Einträge nachgetragen und den Github vervollständigt.   
+Antonia hat versucht, einen Code zu programmieren, um einen bestimmten Text am Anfang des Spieles erscheinen zu lassen. Nebenbei hat sie Farhat dabei unterstützt, Codes auszuprobieren, die Soundeffekte oder Hintergrundmelodien erscheinen lassen.
+  
+
+## 15.03.2022
+Antonia hat zu Anfang der Stunde die Lösung für den Text gefunden und ihn auch in das Spiel eingebaut. 
+Vanessa hat währendessen dass Zusammenführen beider Versionen des Spiels, die wir programmiert haben, wiederholt, da beim ersten Mal irgendwo ein Fehler geschehen ist. 
   
 </details>
   
