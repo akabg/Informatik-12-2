@@ -66,8 +66,8 @@ Inhalt StartScreen:
   <img width="100" alt="Actors" src="https://user-images.githubusercontent.com/88386173/162728127-cde5776b-6562-4dc9-bf71-4ea8d56dbf7f.JPG" />
 </p>
 
-  <p align="center">
-  <img width="250" alt="Actors" src="" />
+<p align="center">
+<img width="250" alt="Actors" src="" />
 </p>
  
 ## StartButton
@@ -88,7 +88,7 @@ Inhalt StartScreen:
 ## Spritze
  
 <p align="center">
-<img width="250" alt="Spritze" src="https://user-images.githubusercontent.com/88386173/162729308-170eebfc-4aba-4785-bd43-c1c5957426f7.png" />
+<img width="100" alt="Spritze" src="https://user-images.githubusercontent.com/88386173/162729308-170eebfc-4aba-4785-bd43-c1c5957426f7.png" />
 </p>
 
 <p align="center">
@@ -161,11 +161,41 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
 
 ## Shooter
  
+<p align="center">
+  <img width="100" alt="Shooter" src="https://user-images.githubusercontent.com/88386173/162730377-50c6d2fa-2108-4be2-b434-748d4752e4eb.png" />
+</p>
+
+<p align="center">
+<img width="700" alt="Allg" src="https://user-images.githubusercontent.com/88386173/162730321-632c9d41-f98b-4c9e-ba19-a2127b3530af.JPG" />
+</p>
+
 ## Shot
  
+<p align="center">
+<img width="50" alt="Shot" src="https://user-images.githubusercontent.com/88386173/162730430-6f50961d-f09c-4be3-8279-b43d929504e8.png" />
+</p>
+
+<p align="center">
+<img width="750" alt="Allg" src="https://user-images.githubusercontent.com/88386173/162730601-2a1c4f6a-edb5-4150-8d68-1899c94d949a.JPG" />
+</p>
+
+<p align="center">
+<img width="750" alt="delete" src="https://user-images.githubusercontent.com/88386173/162730641-fc378b4b-c9d7-40e4-8fd8-5ef08f9318ae.JPG" />
+</p>
+
+<p align="center">
+<img width="750" alt="mover" src="https://user-images.githubusercontent.com/88386173/162730693-9272250f-c732-4c3b-b3cf-a0dc409be736.JPG" />
+</p>
+
 ## NewGame
  
+<p align="center">
+<img width="100" alt="PlayAgain" src="https://user-images.githubusercontent.com/88386173/162730888-746e34e3-d882-4ffb-90f6-2a97e0a4296b.png" />
+</p>
  
+<p align="center">
+<img width="750" alt="AllgPlayAgain" src="https://user-images.githubusercontent.com/88386173/162730830-23d5e9da-3bfb-4855-9cc8-1ed96677b7de.JPG" />
+</p>
 
 
 </details>
