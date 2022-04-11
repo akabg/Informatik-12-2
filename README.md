@@ -131,10 +131,6 @@ Inhalt:
  <p align="center">
   <img width="100" alt="Actors" src="https://user-images.githubusercontent.com/88386173/162728127-cde5776b-6562-4dc9-bf71-4ea8d56dbf7f.JPG" />
 </p>
-
-<p align="center">
-<img width="250" alt="Actors" src="" />
-</p>
  
 ## StartButton
  
@@ -287,7 +283,7 @@ Wir haben uns erste Spiele bei Greenfoot angeschaut, wie ein Raketenspiel, um da
 
 ## 11-01-2022
 
-Heute hat sich Vanessa weiter mit Greenfoot beschäftigt. Nun wissen wir etwas mehr über Greenfoot und was / wieviel wir damit programmieren können. Wir überlegen weiterhin, was wir konkret mit Greenfoot machen wollen, weswegen wir uns weiterhin über dieses Programmier-Portal informiert haben und verschiedene Dinge damit ausprobiert haben. Nun wissen wir, wie wir die Actors zum Bewegen bekommen. Das Kommando move(50) lässt den Actor automatisch nach rechts bewegen, wenn der "Run" Button berührt wird, genauso wie TurnTowards(), wodurch er sich eine eine andere Richtung (hin zu etwas) bewegt. Auch wenn das schon eine erste Erkenntnis ist, müssen wir natürlich noch daran arbeit. Am Ende soll es nämlich ein Spiel werden, was mit den Tasten der Tastatur spielen kann und nicht eine Simulation. Dafür hat uns Herr Buhl auch ein Buch gegeben, mit einer Einführung zu Greenfoot. Dieses hat Vanessa dann mit nach Hause genommen.
+Heute hat sich Vanessa weiter mit Greenfoot beschäftigt. Nun wissen wir etwas mehr über Greenfoot und was / wieviel wir damit programmieren können. Wir überlegen weiterhin, was wir konkret mit Greenfoot machen wollen, weswegen wir uns weiterhin über dieses Programmier-Portal informiert haben und verschiedene Dinge damit ausprobiert haben. Nun wissen wir, wie wir die Actors zum Bewegen bekommen. Das Kommando move(50) lässt den Actor automatisch nach rechts bewegen, wenn der "Run" Button berührt wird, genau so wie TurnTowards(), wodurch er sich eine eine andere Richtung (hin zu etwas) bewegt. Auch wenn das schon eine erste Erkenntnis ist, müssen wir natürlich noch daran arbeit. Am Ende soll es nämlich ein Spiel werden, was mit den Tasten der Tastatur spielen kann und nicht eine Simulation. Dafür hat uns Herr Buhl auch ein Buch gegeben, mit einer Einführung zu Greenfoot. Dieses hat Vanessa dann mit nach Hause genommen.
 
 Erster Fortschritt:
 
@@ -371,7 +367,7 @@ Das hier ist die Code Übersicht unserer World, in der das eigentliche Spiel sta
 </p>
 
 Dies sind die ersten Codes des Antagonisten "Corona". Der obere code ist dafür da, dass sich Corona fortbewegt und dabei sich in zufällig erstellten Winkeln dreht um die Richtung zu wechseln.
-Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es den Rand berührt, abprallt und in die Genau andere Richtung (180 Grad) weiter bewegt.
+Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es den Rand berührt, abprallt und in die genau andere Richtung (180 Grad) weiter bewegt.
   
 <p align="center">
 <img width="400" alt="world 1" src="https://user-images.githubusercontent.com/88386173/153779031-397eeaa0-ba1c-4ec3-8e6c-d07114397cb1.png" />
@@ -480,20 +476,51 @@ Da wir mit der Entwicklung des Spiels schon ziemlich weit sind und planen, in de
 Heute ist der Unterricht wegen eines Ausfluges ausgefallen.
   
 ## 09-03-2022
-Heute hat sich Vanessa weiterhin mit dem Problem der Aluhütte beschäftigt. Die verschiedenen Codes hat sie alle abgegleicht und verschiedene Fehler (Falsche Benennung der Actors) zu korrigieren. Es scheint jedoch, dass es immmer noch zu Fehler kommt, weswegen wir nun beschlossen haben, zwei verschiedene (Alu-)Actors zu erstellen, von denen einer die programmierte Schießfunktion besitzt und der andere willkürlich, als Hindeernis, spawnt. Außerdem hat Vanessa Zuhause ihre fehlende Einträge nachgetragen und den Github vervollständigt.   
+Heute hat sich Vanessa weiterhin mit dem Problem der Aluhütte beschäftigt. Die verschiedenen Codes hat sie alle abgeglichen und verschiedene Fehler (Falsche Benennung der Actors) korrigiert. Es scheint jedoch, dass es immmer noch zu Fehler kommt, weswegen wir nun beschlossen haben, zwei verschiedene (Alu-)Actors zu erstellen, von denen einer die programmierte Schießfunktion besitzt und der andere willkürlich, als Hinderniss, spawnt. Außerdem hat Vanessa Zuhause ihre fehlende Einträge nachgetragen und den Github vervollständigt.   
 Antonia hat versucht, einen Code zu programmieren, um einen bestimmten Text am Anfang des Spieles erscheinen zu lassen. Nebenbei hat sie Farhat dabei unterstützt, Codes auszuprobieren, die Soundeffekte oder Hintergrundmelodien erscheinen lassen.
-  
 
 ## 15.03.2022
-Antonia hat zu Anfang der Stunde die Lösung für den Text gefunden und ihn auch in das Spiel eingebaut. 
-Vanessa hat währendessen dass Zusammenführen beider Versionen des Spiels, die wir programmiert haben, wiederholt, da beim ersten Mal irgendwo ein Fehler geschehen ist. 
-  
+Antonia hat zu Anfang der Stunde die Lösung für den Text gefunden und ihn auch in das Spiel eingebaut.
+Vanessa hat währendessen dass Zusammenführen beider Versionen des Spiels, die wir programmiert haben, wiederholt, da beim ersten Mal irgendwo ein Fehler geschehen ist. Am Ende haben wir alle am Spiel gearbeitet und die Funktionen aller Actors geprüft. Dass Zusammenführen der Codes hat geklappt und die Roh-Version unseres Spieles funktioniert.
+ 
+## 16.03.2022
+
+ 
+## 22.03.2022
+Wir wollen einen Text als Anleitung (Zum Beispiel "Steuer mit den Pfeiltasten" am Anfang des GameScreens erscheinen lassen. Dieser soll aber auch wieder verschwinden (zum Beispiel wenn man enter drückt, oder nach einer bestimmten Zeit). Wir haben sowohl eine if (-else) Funktion, als auch mit Boolean ausprobiert, doch dies führte beides nicht zu dem gewünschten Ergebnis. Unser Fehler war, dass wir dachten, dass wenn bei Boolean/if das andere erfüllt wird, dass Erste dann verschwindet. Doch so ist es nicht. Wir hätten zwar auch mit einem Image arbeiten können, haben uns aber dagegen entschieden und stattdessen den Text auf den StartScreen gepackt. Dort verschwindet er automatisch, sobald ein neuer Screen (Game Screen) geöffnet wird.
+ 
+<p align="center">
+<img width="600" alt="text" src="https://user-images.githubusercontent.com/88386173/162736254-b51afb5b-9ebd-4776-b821-97e41edf1f39.JPG" />
+</p>
+
+## 23.03.2022
+Frei wegen der mündlichen Englisch Prüfungen
+ 
+## 29.03.2022
+Letzte Informatikstunde. Vanessa und Antonia haben beide Corona. Farhat ist krank.
+ 
+## 06.04.2022
+Herr Buhl ist netterweise in die Schule gekommen. Somit konnten Vanessa und ich das Spiel einmal so abspeichern, so dass wir auch von zuhause weiterarbeiten können. Außerdem hat auch er nochmal über unsere Codes geschaut und uns geholfen. So hat er uns in der Annahme bestätigt, dass wir das vorherige Textproblem wahrscheinlich nur mit einem Image lösen hätten können. 
+
+## Osterferien
+Wir haben die Sounds in das Spiel integriert. So gibt es jetzt ab dem Game Screen eine durchgehende Melodie im Hintergrund. Zusätzlich gibt es KLick-Geräusche, wenn man einen Knopf drückt und einen Applaus oder eine traurige Melodie, je nachdem ob man verliert oder gewinnt.
+Auch haben wir einen PlayAgainButton etabliert. Dieser erscheint auf dem Win- oder LooseScreen und ermöglicht ein schnelles Neustarten des Spieles. Da sich dabei aber die Hintergrundmusik selbst übereinandergelegt hat, mussten wir diese statisch codieren (Siehe Bild unten)
+ 
+<p align="center">
+<img width="600" alt="Static" src="https://user-images.githubusercontent.com/88386173/162736069-67aeada5-9358-43c8-be22-8be42da43765.JPG" />
+</p>
+
 </details>
   
 
 ### <a name="3"></a>Fazit
 
 ### <a name="4"></a>Finale Links
+
+Notizen:
+<p align="center">
+<img width="250" alt="Actors" src="" />
+</p>
 
 
 
