@@ -42,6 +42,8 @@ Du landest hier wenn:
 - Antikörper Alu berührt
 - Antikörper abgeschossen wird
 - der Timer abgelaufen ist
+ 
+ 
   
 </details>
 
@@ -59,6 +61,19 @@ Inhalt
 - Spritze
 - Nicht steuerbarer Antikörper
  
+<p align="center">
+<img width="600" alt="Start1" src="https://user-images.githubusercontent.com/88386173/162732710-16f9ecd8-2ec9-441d-b9e2-3fdacdb7a9f7.JPG" />
+</p>
+ 
+<p align="center">
+<img width="600" alt="Start2" src="https://user-images.githubusercontent.com/88386173/162732774-652f01ce-be59-40f8-bc7e-e4e4ca494a82.JPG" />
+</p>
+ 
+<p align="center">
+<img width="600" alt="StartCode" src="https://user-images.githubusercontent.com/88386173/162732566-2f1e340e-3cff-49ef-9142-7c3ed5ca5f09.JPG" />
+</p>
+ 
+
 ### 2. Game Screen
  
 Inhalt:
@@ -68,17 +83,45 @@ Inhalt:
 - Aluhüte (spawnen random)
 - Shooter
 - Shot
+ 
+<p align="center">
+<img width="250" alt="Game" src="https://user-images.githubusercontent.com/88386173/162733248-0f84099c-1577-4982-945e-fe17ad2e494b.JPG" />
+</p>
+
+<p align="center">
+<img width="600" alt="GameCode1" src="https://user-images.githubusercontent.com/88386173/162732820-c555a8bd-6422-485e-84c5-cc7accb92781.JPG" />
+</p>
+ 
+<p align="center">
+<img width="450" alt="GameCode2" src="https://user-images.githubusercontent.com/88386173/162732826-74bb813f-fe82-4aee-89f5-fb88f6a78226.JPG" />
+</p>
 
 ### 3.1 Win-Screen
 
 Inhalt:
 - Play Again Button
  
+<p align="center">
+<img width="600" alt="WinScreen" src="https://user-images.githubusercontent.com/88386173/162733304-6e2137d5-6c3d-4857-b5af-a16113942233.JPG" />
+</p>
+
+<p align="center">
+<img width="600" alt="WinCode" src="https://user-images.githubusercontent.com/88386173/162733374-dec407f3-642c-4ce3-9b10-353630161b58.JPG" />
+</p>
+
 ### 3.2 Loose-Screen
 
-Inhat:
+Inhalt:
 - Play Again Button
  
+<p align="center">
+<img width="600" alt="LooseScreen" src="https://user-images.githubusercontent.com/88386173/162733471-60b75e3f-29fe-4ffb-afa8-8c5e7f1c7b6e.JPG" />
+</p>
+
+<p align="center">
+<img width="600" alt="LooseCode" src="https://user-images.githubusercontent.com/88386173/162733477-9566d2a9-58e8-4f43-93fb-46c7b41a2a63.JPG" />
+</p>
+
  </details>
 
 
