@@ -77,11 +77,11 @@ Inhalt StartScreen:
 </p>
  
 <p align="center">
-<img width="900" alt="Allgemein" src="https://user-images.githubusercontent.com/88386173/162728603-93c935e9-357f-4ac7-ae9f-8a6b1e66261c.JPG" />
+<img width="650" alt="Allgemein" src="https://user-images.githubusercontent.com/88386173/162728603-93c935e9-357f-4ac7-ae9f-8a6b1e66261c.JPG" />
 </p>
 
  <p align="center">
-<img width="900" alt="addSpritze" src="https://user-images.githubusercontent.com/88386173/162728649-34611d5d-e4c5-4d5a-98a1-9f7fe8ed0293.JPG" />
+<img width="650" alt="addSpritze" src="https://user-images.githubusercontent.com/88386173/162728649-34611d5d-e4c5-4d5a-98a1-9f7fe8ed0293.JPG" />
 </p>
  
  
@@ -92,11 +92,11 @@ Inhalt StartScreen:
 </p>
 
 <p align="center">
-<img width="900" alt="Spritzeallg" src="https://user-images.githubusercontent.com/88386173/162728781-a29b4f3b-1a1a-412e-8d49-069831d6b69e.JPG" />
+<img width="650" alt="Spritzeallg" src="https://user-images.githubusercontent.com/88386173/162728781-a29b4f3b-1a1a-412e-8d49-069831d6b69e.JPG" />
 </p>
 
 <p align="center">
-<img width="900" alt="moveanddropp" src="https://user-images.githubusercontent.com/88386173/162728846-f801087a-aa51-461c-adfd-c72116d75541.JPG" />
+<img width="650" alt="moveanddropp" src="https://user-images.githubusercontent.com/88386173/162728846-f801087a-aa51-461c-adfd-c72116d75541.JPG" />
 </p>
 
 ## Antikörper
@@ -134,7 +134,7 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
 </p>
  
  <p align="center">
-  <img width="900" alt="move" src="https://user-images.githubusercontent.com/88386173/162728278-a9d22436-9dda-43d9-9994-2abd151c9ef2.JPG" />
+  <img width="650" alt="move" src="https://user-images.githubusercontent.com/88386173/162728278-a9d22436-9dda-43d9-9994-2abd151c9ef2.JPG" />
 </p>
  
 ## Alu (Aluhut)
@@ -144,19 +144,19 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
  </p>
 
 <p align="center">
-<img width="900" alt="Aluallg" src="https://user-images.githubusercontent.com/88386173/162729448-56552ad7-86e4-4e25-9665-689ef1c2fd3f.JPG" />
+<img width="650" alt="Aluallg" src="https://user-images.githubusercontent.com/88386173/162729448-56552ad7-86e4-4e25-9665-689ef1c2fd3f.JPG" />
 </p>
 
 <p align="center">
-<img width="700" alt="appear" src=" https://user-images.githubusercontent.com/88386173/162729543-1fb8e665-f79d-409a-8996-45a87ec24484.JPG" />
+<img width="650" alt="appear" src="https://user-images.githubusercontent.com/88386173/162729543-1fb8e665-f79d-409a-8996-45a87ec24484.JPG" />
 </p>
 
 <p align="center">
-<img width="700" alt="kill" src="https://user-images.githubusercontent.com/88386173/162729594-82c28171-8d23-4b07-bfae-c5d9e8397417.JPG" />
+<img width="650" alt="kill" src="https://user-images.githubusercontent.com/88386173/162729594-82c28171-8d23-4b07-bfae-c5d9e8397417.JPG" />
 </p>
  
 <p align="center">
-<img width="700" alt="disappear" src="https://user-images.githubusercontent.com/88386173/162729641-1f1ccb19-6420-4abe-aab6-3bbf1df96600.JPG" />
+<img width="650" alt="disappear" src="https://user-images.githubusercontent.com/88386173/162729641-1f1ccb19-6420-4abe-aab6-3bbf1df96600.JPG" />
 </p> 
 
 ## Shooter
