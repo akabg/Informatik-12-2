@@ -43,7 +43,6 @@ Du landest hier wenn:
 - Antikörper abgeschossen wird
 - der Timer abgelaufen ist
  
- 
   
 </details>
 
@@ -85,7 +84,7 @@ Inhalt:
 - Shot
  
 <p align="center">
-<img width="250" alt="Game" src="https://user-images.githubusercontent.com/88386173/162733248-0f84099c-1577-4982-945e-fe17ad2e494b.JPG" />
+<img width="600" alt="Game" src="https://user-images.githubusercontent.com/88386173/162733248-0f84099c-1577-4982-945e-fe17ad2e494b.JPG" />
 </p>
 
 <p align="center">
