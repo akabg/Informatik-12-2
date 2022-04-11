@@ -58,10 +58,7 @@ Inhalt StartScreen:
 - Nicht steuerbarer Antikörper
  
  </details>
-  
-Inhalt
-  
- /details>
+
 
 <details>
 <summary>Actors</summary>
