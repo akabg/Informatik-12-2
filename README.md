@@ -63,7 +63,7 @@ Inhalt StartScreen:
 <br>
  
  <p align="center">
-  <img width="250" alt="Actors" src="https://user-images.githubusercontent.com/88386173/162728127-cde5776b-6562-4dc9-bf71-4ea8d56dbf7f.JPG" />
+  <img width="100" alt="Actors" src="https://user-images.githubusercontent.com/88386173/162728127-cde5776b-6562-4dc9-bf71-4ea8d56dbf7f.JPG" />
 </p>
 
   <p align="center">
