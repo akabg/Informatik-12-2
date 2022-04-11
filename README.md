@@ -71,22 +71,21 @@ Der Antikörper wird auf dem Start-Screen in die welt gesetzt.
 </p>
 
  <p align="center">
-  <img width="250" alt="Antikörperallg." src="https://user-images.githubusercontent.com/88386173/162726009-0193f275-3641-49d9-b691-40447fdd1079.JPG" />
+  <img width="900" alt="Antikörperallg." src="https://user-images.githubusercontent.com/88386173/162726009-0193f275-3641-49d9-b691-40447fdd1079.JPG" />
 </p>
  
  <p align="center">
-  <img width="250" alt="Antikörper" src="https://user-images.githubusercontent.com/88386173/152698020-950b4e70-1960-4ee4-9d61-b14cc83ca149.PNG" />
+  <img width="900" alt="Fortbewegung" src="https://user-images.githubusercontent.com/88386173/162726225-5b13261f-197d-45e3-b724-3164b9a2b5fb.JPG" />
 </p>
- 
+
  <p align="center">
-  <img width="250" alt="Antikörper" src="https://user-images.githubusercontent.com/88386173/152698020-950b4e70-1960-4ee4-9d61-b14cc83ca149.PNG" />
+  <img width="900" alt="kill" src="https://user-images.githubusercontent.com/88386173/162726318-09ad2d34-5cd4-4f6a-83b4-c67b8fb8f187.JPG" />
 </p>
- 
+
  <p align="center">
-  <img width="250" alt="Antikörper" src="https://user-images.githubusercontent.com/88386173/152698020-950b4e70-1960-4ee4-9d61-b14cc83ca149.PNG" />
+  <img width="900" alt="eaten" src="https://user-images.githubusercontent.com/88386173/162726410-64c3f71a-d78e-4b15-9e64-37190a50470c.JPG" />
 </p>
- 
- 
+
 
 
 ## Corona Virus
