@@ -51,7 +51,7 @@ Du landest hier wenn:
 Es gibt 4 verschiedene Screens/worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
 Inhalt StartScreen:
 - StartButton
-- Schriftzug
+- Schriftzüge
 - Spritze
 - Nicht steuerbarer Antikörper
  
@@ -72,6 +72,10 @@ Inhalt StartScreen:
  
 ## StartButton
  
+ <p align="center">
+  <img width="250" alt="StartButton" src="https://user-images.githubusercontent.com/88386173/162729189-d608f3d3-5bf5-4a63-9f88-00e8baacdbd5.png" />
+</p>
+ 
 <p align="center">
 <img width="900" alt="Allgemein" src="https://user-images.githubusercontent.com/88386173/162728603-93c935e9-357f-4ac7-ae9f-8a6b1e66261c.JPG" />
 </p>
@@ -83,6 +87,10 @@ Inhalt StartScreen:
  
 ## Spritze
  
+<p align="center">
+<img width="250" alt="Spritze" src="https://user-images.githubusercontent.com/88386173/162729308-170eebfc-4aba-4785-bd43-c1c5957426f7.png" />
+</p>
+
 <p align="center">
 <img width="900" alt="Spritzeallg" src="https://user-images.githubusercontent.com/88386173/162728781-a29b4f3b-1a1a-412e-8d49-069831d6b69e.JPG" />
 </p>
@@ -129,10 +137,28 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
   <img width="900" alt="move" src="https://user-images.githubusercontent.com/88386173/162728278-a9d22436-9dda-43d9-9994-2abd151c9ef2.JPG" />
 </p>
  
-
-  
 ## Alu (Aluhut)
  
+<p align="center">
+<img width="100" alt="Actors" src="https://user-images.githubusercontent.com/88386173/162729778-18bc58ad-b345-45a7-9cac-de03c0118236.png" />
+ </p>
+
+<p align="center">
+<img width="900" alt="Aluallg" src="https://user-images.githubusercontent.com/88386173/162729448-56552ad7-86e4-4e25-9665-689ef1c2fd3f.JPG" />
+</p>
+
+<p align="center">
+<img width="700" alt="appear" src=" https://user-images.githubusercontent.com/88386173/162729543-1fb8e665-f79d-409a-8996-45a87ec24484.JPG" />
+</p>
+
+<p align="center">
+<img width="700" alt="kill" src="https://user-images.githubusercontent.com/88386173/162729594-82c28171-8d23-4b07-bfae-c5d9e8397417.JPG" />
+</p>
+ 
+<p align="center">
+<img width="700" alt="disappear" src="https://user-images.githubusercontent.com/88386173/162729641-1f1ccb19-6420-4abe-aab6-3bbf1df96600.JPG" />
+</p> 
+
 ## Shooter
  
 ## Shot
