@@ -48,7 +48,7 @@ Du landest hier wenn:
 </details>
 
 <details>
-<summary>World (Setting) </summary>
+<summary> World (Setting) </summary>
 <br>
 Es gibt 4 verschiedene Screens/worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
 Inhalt StartScreen:
@@ -56,6 +56,8 @@ Inhalt StartScreen:
 - Schriftzug
 - Spritze
 - Nicht steuerbarer Antikörper
+ 
+ </details>
   
 Inhalt
   
