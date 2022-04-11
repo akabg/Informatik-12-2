@@ -10,8 +10,6 @@
 
 [Finale Links](#4)
 
-[Projektseite als PPP](#5)
-
 ### <a name="1"></a>Unser Projekt
 
 <details>
@@ -317,6 +315,5 @@ Vanessa hat währendessen dass Zusammenführen beider Versionen des Spiels, die 
 
 ### <a name="4"></a>Finale Links
 
-### <a name="5"></a>Projektseite als PPP
 
 
