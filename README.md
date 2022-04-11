@@ -48,12 +48,36 @@ Du landest hier wenn:
 <details>
 <summary> World (Setting) </summary>
 <br>
+ 
 Es gibt 4 verschiedene Screens/worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
-Inhalt StartScreen:
+
+### 1. Start Screen
+ 
+Inhalt
 - StartButton
 - Schriftzüge
 - Spritze
 - Nicht steuerbarer Antikörper
+ 
+### 2. Game Screen
+ 
+Inhalt:
+- Timer
+- Antikörper (steuerbar)
+- Corona
+- Aluhüte (spawnen random)
+- Shooter
+- Shot
+
+### 3.1 Win-Screen
+
+Inhalt:
+- Play Again Button
+ 
+### 3.2 Loose-Screen
+
+Inhat:
+- Play Again Button
  
  </details>
 
@@ -201,9 +225,10 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
 </details>
 
 <details>
-<summary>Codes</summary>
+<summary>Sounds</summary>
 <br>
-Dies sind zusammengefasst unsere Codes:
+Dies sind unsere Sounds...
+ 
 </details>
 
 ### <a name="2"></a>Blog
