@@ -503,12 +503,14 @@ Letzte Informatikstunde. Vanessa und Antonia haben beide Corona. Farhat ist kran
 Herr Buhl ist netterweise in die Schule gekommen. Somit konnten Vanessa und ich das Spiel einmal so abspeichern, so dass wir auch von zuhause weiterarbeiten können. Außerdem hat auch er nochmal über unsere Codes geschaut und uns geholfen. So hat er uns in der Annahme bestätigt, dass wir das vorherige Textproblem wahrscheinlich nur mit einem Image lösen hätten können. 
 
 ## Osterferien
-Wir haben die Sounds in das Spiel integriert. So gibt es jetzt ab dem Game Screen eine durchgehende Melodie im Hintergrund. Zusätzlich gibt es KLick-Geräusche, wenn man einen Knopf drückt und einen Applaus oder eine traurige Melodie, je nachdem ob man verliert oder gewinnt.
-Auch haben wir einen PlayAgainButton etabliert. Dieser erscheint auf dem Win- oder LooseScreen und ermöglicht ein schnelles Neustarten des Spieles. Da sich dabei aber die Hintergrundmusik selbst übereinandergelegt hat, mussten wir diese statisch codieren (Siehe Bild unten)
+Wir haben die Sounds in das Spiel integriert. So gibt es jetzt ab dem Game Screen eine durchgehende Melodie im Hintergrund. Zusätzlich gibt es Klick-Geräusche, wenn man einen Knopf drückt und einen Applaus oder eine traurige Melodie, je nachdem ob man verliert oder gewinnt.
+Auch haben wir einen PlayAgainButton etabliert. Dieser erscheint auf dem Win- oder LooseScreen und ermöglicht ein schnelles Neustarten des Spieles. Da sich dabei aber die Hintergrundmusik selbst übereinandergelegt hat, mussten wir diese statisch codieren (Siehe Bild unten). Nun bleibt die Musik ab Spielbeginn durchgehend erhalten und startet nicht jedes mal neu und überlagert sich dadurch selbst.
  
 <p align="center">
 <img width="600" alt="Static" src="https://user-images.githubusercontent.com/88386173/162736069-67aeada5-9358-43c8-be22-8be42da43765.JPG" />
 </p>
+ 
+Weiterhin haben wir, nachdem das Spiel fertig gestellt war, Screenshots von allen Codes erstellt und in Github eingearbeitet. Danach haben wir die Codes erklärt und das Fazit geschrieben.
 
 </details>
   
