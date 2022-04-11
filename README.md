@@ -72,8 +72,25 @@ Inhalt StartScreen:
  
 ## StartButton
  
+<p align="center">
+<img width="900" alt="Allgemein" src="https://user-images.githubusercontent.com/88386173/162728603-93c935e9-357f-4ac7-ae9f-8a6b1e66261c.JPG" />
+</p>
+
+ <p align="center">
+<img width="900" alt="addSpritze" src="https://user-images.githubusercontent.com/88386173/162728649-34611d5d-e4c5-4d5a-98a1-9f7fe8ed0293.JPG" />
+</p>
+ 
+ 
 ## Spritze
  
+<p align="center">
+<img width="900" alt="Spritzeallg" src="https://user-images.githubusercontent.com/88386173/162728781-a29b4f3b-1a1a-412e-8d49-069831d6b69e.JPG" />
+</p>
+
+<p align="center">
+<img width="900" alt="moveanddropp" src="https://user-images.githubusercontent.com/88386173/162728846-f801087a-aa51-461c-adfd-c72116d75541.JPG" />
+</p>
+
 ## Antikörper
   
 Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
