@@ -61,7 +61,19 @@ Inhalt StartScreen:
 <details>
 <summary>Actors</summary>
 <br>
-  
+ 
+ <p align="center">
+  <img width="250" alt="Actors" src="https://user-images.githubusercontent.com/88386173/162728127-cde5776b-6562-4dc9-bf71-4ea8d56dbf7f.JPG" />
+</p>
+
+  <p align="center">
+  <img width="250" alt="Actors" src="" />
+</p>
+ 
+## StartButton
+ 
+## Spritze
+ 
 ## Antikörper
   
 Der Antikörper wird auf dem Start-Screen in die welt gesetzt.
@@ -86,8 +98,6 @@ Der Antikörper wird auf dem Start-Screen in die welt gesetzt.
   <img width="900" alt="eaten" src="https://user-images.githubusercontent.com/88386173/162726410-64c3f71a-d78e-4b15-9e64-37190a50470c.JPG" />
 </p>
 
-
-
 ## Corona Virus
 
 <p align="center">
@@ -97,8 +107,24 @@ Der Antikörper wird auf dem Start-Screen in die welt gesetzt.
 <p align="center">
 <img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/152698284-aac60cfd-7d98-4179-b87f-f393aabc0e62.PNG" />
 </p>
+ 
+ <p align="center">
+  <img width="900" alt="move" src="https://user-images.githubusercontent.com/88386173/162728278-a9d22436-9dda-43d9-9994-2abd151c9ef2.JPG" />
+</p>
+ 
+
   
-Virus, Aluhüte, Globulis....
+## Alu (Aluhut)
+ 
+## Shooter
+ 
+## Shot
+ 
+## NewGame
+ 
+ 
+
+
 </details>
 
 <details>
