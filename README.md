@@ -31,8 +31,7 @@ Die Spritze bewegt sich über den Bildschirm nach links und setzt auf halben Weg
  
 ### 2. Game Screen
 Hier beginnt das eigentliche Spiel. Das zu fangende Objekt, Corona, fängt sofort an sich zufällig über den Bildschirm zu bewegen. Der zu steuernde Antikörper fängt erst an sich zu bewegen und sich steuern zu lassen, wenn man die Eingabetaste drückt. Die Aluhüte lassen sich unterscheiden in einen, der statisch ist und mit Bällen zufällig um sich schießt und Aluhüte, die direkt zufällig spawnen und nach kurzer Zeit wieder verschwinden. Wenn man einen Aluhut berührt, oder man von einem Ball abgeschossen wird, hat man verloren. 
-Man spielt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit das Coronavirus zu fangen. Während des Spiels läuft im Hintergrund durchgehend eine Melodie.
-Am Ende des Spiels öffnet sich je nach Ausgang, entweder der Win-Screen oder der Loose-Screen.
+Man spielt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit das Coronavirus zu fangen. Während des Spiels läuft im Hintergrund durchgehend eine Melodie. Am Ende des Spiels öffnet sich je nach Ausgang, entweder der Win-Screen oder der Loose-Screen.
 
 ### 3.1 Win-Screen
 Man gewinnt, wenn der Antikörper Corona berührt. Dann öffnet sich der Win-Screen und ein Applaus ertönt. Zusätzlich hat man hier die Option auf einen 'Play Again' Button zu drücken, um direkt wieder zu dem Game Screen geleitet zu werden.
@@ -90,14 +89,20 @@ Inhalt:
 <p align="center">
 <img width="600" alt="Game" src="https://user-images.githubusercontent.com/88386173/162733248-0f84099c-1577-4982-945e-fe17ad2e494b.JPG" />
 </p>
+ 
+Dies ist ein Screenshot, der den Aufbau des Spieles verdeutlicht. Das gelbe Coronavirus bewegt sich sofort selbstständig und zufällig über den Bildschirm. Der Antikörper ist über die Pfeiltasten steuerbar und bewegt sich erst, wenn man die Eingabetaste drückt. Rechts kann man den statischen Aluhut sehen, der Bälle zufällig schießt. Der linke Aluhut ist einer, der zufällig irgendwo spawnt und auch nach kurzer Zeit wieder verschwindet. Es kann auch sein, dass mehrere Aluhüte spawnen. Oben in der Ecke sieht man den Timer, der runterzählt.
 
 <p align="center">
 <img width="600" alt="GameCode1" src="https://user-images.githubusercontent.com/88386173/162732820-c555a8bd-6422-485e-84c5-cc7accb92781.JPG" />
 </p>
  
+Den Code des Game Screens kann man in zwei Teile einteilen. In dem ersten Teil werden alle Actors in die Welt gesetzt. Es wird auch die Geschwindigkeit reguliert. Zusätzlich wird hier für die Hintergrundmusik codiert. Diese ist statisch, da sie sich sonst jedes mal, wenn man das Spiel neu startet, selbst überlegen würde.
+ 
 <p align="center">
 <img width="450" alt="GameCode2" src="https://user-images.githubusercontent.com/88386173/162732826-74bb813f-fe82-4aee-89f5-fb88f6a78226.JPG" />
 </p>
+ 
+Der zweite Teil des Codes enthält die Methoden 'countTime' und 'showTime'. 'countTime' zählt den Timer (der auf dem 1. Bild zu sehen ist) runter und öffnet, wenn 0 erreicht ist, denn Loose Screen - man hat verloren. Die 'showTime' Methode zeigt den runterzählenden Timer und davor den Ausdruck 'Timer:' in der linken oberen Ecke im Spiel an, so dass man immer den aktuellen Stand sehen kann. Die restlichen Codes sind auch bei den Actors zu finden.
 
 ### 3.1 Win-Screen
 
