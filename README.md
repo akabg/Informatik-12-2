@@ -51,7 +51,7 @@ Man landet hier wenn:
 <summary> World (Setting) </summary>
 <br>
  
-Es gibt 4 verschiedene Screens/worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
+Es gibt 4 verschiedene Screens/Worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
 
 ### 1. Start Screen
  
@@ -65,6 +65,8 @@ Inhalt
 <img width="600" alt="Start1" src="https://user-images.githubusercontent.com/88386173/162732710-16f9ecd8-2ec9-441d-b9e2-3fdacdb7a9f7.JPG" />
 </p>
  
+Wenn man das Spiel startet, ist dies der erste Eindruck, den man gewinnt. Wenn man auf den Button drückt, verschwindet dieser und drei Schriftzüge (die Anleitung) und die Spritze werden in die Welt gesetzt. Die Spritze bewegt sich nach links über den Bildschirm und setzt auf dem Weg einen Antikörper in die Welt, der Spieler ist jetzt geimpft (siehe Bild unten). Wenn die Spritze den Rand berührt, wird automatisch der Game Screen geöffnet. Auf dem Start Screen ist außer der StartButton nichts interaktiv. Man kann diesen Teil eher als Animation sehen, die die Geschichte des Spieles darstellt und zusätzlich Zeit gibt, um die Anleitung zu lesen.
+ 
 <p align="center">
 <img width="600" alt="Start2" src="https://user-images.githubusercontent.com/88386173/162732774-652f01ce-be59-40f8-bc7e-e4e4ca494a82.JPG" />
 </p>
@@ -73,6 +75,7 @@ Inhalt
 <img width="600" alt="StartCode" src="https://user-images.githubusercontent.com/88386173/162732566-2f1e340e-3cff-49ef-9142-7c3ed5ca5f09.JPG" />
 </p>
  
+Dies ist der komplette Code des Start Screens. Er ist einfach gehalten, es wird nur der Actor 'StartButton' hinzugefügt, da der restliche Code bei den Actors selbst zu finden ist. 
 
 ### 2. Game Screen
  
