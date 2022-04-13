@@ -15,7 +15,7 @@
 <details>
 <summary>Vorstellung</summary>
 <br>
-Unsere Gruppe, bestehend aus Antonia, Farhat und Vanessa hat ein Spiel namens __CatchCorona__ programmiert. 
+Unsere Gruppe, bestehend aus Antonia, Farhat und Vanessa hat ein Spiel namens *CatchCorona* programmiert. 
 Die Idee des Spiels ist es, dass der Spieler den Antikörper steuert. Dabei muss er mit Hilfe der Pfeiltasten das Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeiten zu erhöhen gibt es auch Hindernisse, denen man ausweichen muss, oder die auf einen schießen, die Aluhüte. Letztendlich hat man auch nur eine bestimmte Zeit zum einfangen, da ein Timer runterläuft.
 Programmiert haben wir mit Greenfoot, eine interaktive Java-Entwicklungsumgebung. Dies war für alle in der Gruppe das erste "echte" programmieren.
 </details>
