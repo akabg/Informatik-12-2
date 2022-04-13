@@ -42,7 +42,8 @@ Man landet hier wenn:
 - Antikörper Alu berührt
 - Antikörper abgeschossen wird
 - der Timer abgelaufen ist
-Dieser Bildschirm öffnet sich und ein trauriger Sound ertönt. Auch hier hat man die Option des 'Play Again' Buttons. 
+
+ Wenn sich dieser Bildschirm öffnet, ertönt ein trauriger Sound. Auch hier hat man die Option des 'Play Again' Buttons. 
   
 </details>
 
