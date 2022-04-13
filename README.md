@@ -16,7 +16,7 @@
 <summary>Vorstellung</summary>
 <br>
 Unsere Gruppe, bestehend aus Antonia, Farhat und Vanessa hat ein Spiel namens 'CatchCorona' programmiert. 
-Die Idee des Spiels ist es, dass der Spieler einen Antikörper steuert. Dabei muss er mit Hilfe der Pfeiltasten das Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeiten zu erhöhen gibt es auch Hindernisse, denen man ausweichen muss, oder die auf einen schießen, die Aluhüte. Letztendlich hat man auch nur eine bestimmte Zeit zum einfangen, da ein Timer runterläuft.
+Die Idee des Spiels ist es, dass der Spieler einen Antikörper steuert. Dabei muss er mit Hilfe der Pfeiltasten das Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeit zu erhöhen gibt es auch Hindernisse, die Aluhüte, denen man ausweichen muss, oder die auf einen schießen. Letztendlich hat man auch nur eine bestimmte Zeit zum Einfangen, da ein Timer runterläuft.
 Programmiert haben wir mit Greenfoot, eine interaktive Java-Entwicklungsumgebung. Dies war für alle in der Gruppe das erste "echte" programmieren.
 </details>
 
@@ -26,23 +26,23 @@ Programmiert haben wir mit Greenfoot, eine interaktive Java-Entwicklungsumgebung
 <br>
 
 ### 1. Start Screen
-Wenn man das Spiel startet, trifft man als erste auf den StartScreen. Wenn man den StartButton drückt, verschwindet er und stattdessen wird eine Spritze in die Welt gesetzt, die die Impfung darstellen soll. Zusätzlich wird der Schriftzug "Hilfe, rette mich vor Corona!" angezeigt. 
-Die Spritze bewegt sich über den Bildschirm nach links und setzt auf halben Wege ein Anitkörper (das der Spiler später steuert) in die Welt. Wenn es den Rand des Screens berührt, wird der GameScreen geöffnet.
+Wenn man das Spiel startet, trifft man als erste auf den StartScreen. Wenn man den StartButton drückt, verschwindet er und stattdessen wird eine Spritze in die Welt gesetzt, die die Impfung darstellen soll. Zusätzlich wird der Schriftzug "Hilfe, rette mich vor Corona!", "Drücke gleich enter zum Starten." und "Steuere den Antikörper mit den Pfeiltasten" angezeigt. Dies sind alle Anweisungen, die der Spieler an die Hand bekommt.
+Die Spritze bewegt sich über den Bildschirm nach links und setzt auf halben Wege ein Antikörper (den der Spieler später steuert) in die Welt. Wenn die Spritze den Rand des Screens berührt, wird der GameScreen geöffnet.
  
 ### 2. Game Screen
-Hier beginnt das eigentliche Spiel. Das zu fangende Objekt, Corona, fängt sofort an sich zufällig über den Bildschirm zu bewegen. Der zu steuernde Antikörper fängt erst an sich zu bewegen und sich steuern zu lassen, wenn man die Eingabetaste drückt. Auch die Hindernisse spawnen direkt.
-Man spielt jetzt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit Corona zu fangen.
+Hier beginnt das eigentliche Spiel. Das zu fangende Objekt, Corona, fängt sofort an sich zufällig über den Bildschirm zu bewegen. Der zu steuernde Antikörper fängt erst an sich zu bewegen und sich steuern zu lassen, wenn man die Eingabetaste drückt. Die Aluhüte lassen sich unterscheiden in einen, der statisch ist und mit Bällen zufällig um sich schießt und Aluhüte, die direkt zufällig spawnen und nach kurzer Zeit wieder verschwinden. Wenn man einen Aluhut berührt, oder man von einem Ball abgeschossen wird, hat man verloren. 
+Man spielt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit das Coronavirus zu fangen. Während des Spiels läuft im Hintergrund durchgehend eine Melodie.
 Am Ende des Spiels öffnet sich je nach Ausgang, entweder der Win-Screen oder der Loose-Screen.
 
 ### 3.1 Win-Screen
-Du gewinnst, wenn Antikörper Corona berührt.
+Man gewinnt, wenn der Antikörper Corona berührt. Dann öffnet sich der Win-Screen und ein Applaus ertönt. Zusätzlich hat man hier die Option auf einen 'Play Again' Button zu drücken, um direkt wieder zu dem Game Screen geleitet zu werden.
 
 ### 3.2 Loose-Screen
-Du landest hier wenn:
+Man landet hier wenn:
 - Antikörper Alu berührt
 - Antikörper abgeschossen wird
 - der Timer abgelaufen ist
- 
+Dieser Bildschirm öffnet sich und ein trauriger Sound ertönt. Auch hier hat man die Option des 'Play Again' Buttons. 
   
 </details>
 
