@@ -113,6 +113,9 @@ Inhalt:
 <img width="600" alt="WinScreen" src="https://user-images.githubusercontent.com/88386173/162733304-6e2137d5-6c3d-4857-b5af-a16113942233.JPG" />
 </p>
 
+Dies ist der Win-Screen, zu welchem man gelangt, wenn man gewonnen hat. Wenn man den 'Play Again' Button drückt, wird man automatisch erneut zu dem GameScreen weitergelietet.
+Der Code (unten zu sehen) ist für den Screen selbst einfach, es wird der Actor 'NewGame' (der 'Play Again' Button) in die Welt gesetzt. 
+
 <p align="center">
 <img width="600" alt="WinCode" src="https://user-images.githubusercontent.com/88386173/162733374-dec407f3-642c-4ce3-9b10-353630161b58.JPG" />
 </p>
@@ -126,6 +129,8 @@ Inhalt:
 <img width="600" alt="LooseScreen" src="https://user-images.githubusercontent.com/88386173/162733471-60b75e3f-29fe-4ffb-afa8-8c5e7f1c7b6e.JPG" />
 </p>
 
+Der Loose-Screen ist identisch aufgebaut, wie der Win-Screen.
+ 
 <p align="center">
 <img width="600" alt="LooseCode" src="https://user-images.githubusercontent.com/88386173/162733477-9566d2a9-58e8-4f43-93fb-46c7b41a2a63.JPG" />
 </p>
