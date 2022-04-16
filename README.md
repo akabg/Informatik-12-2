@@ -206,9 +206,9 @@ Der Antikörper ist der wichtigste Actor in diesem Spiel. Er wird von dem Spiele
 Bei ‚eat‘ wurde dafür codiert, dass wenn der Antikörper den Actor Corona berührt, Corona aus der Welt entfernt wird. Außerdem wird ein klatschen-Sound abgespielt und der Win-Screen geöffnet, da man das Spiel gewonnen hat.
 
 <p align="center">
-<img width="900" alt="eaten" src="https://user-images.githubusercontent.com/88386173/162726410-64c3f71a-d78e-4b15-9e64-37190a50470c.JPG" />
+<img width="900" alt="eaten" src="https://user-images.githubusercontent.com/88386173/163677142-9fd5e374-780b-4c55-be8a-1d828b6b08b9.JPG" />
 </p>
- 
+
 ‚Eaten‘ hingegen sorgt dafür, dass wenn man den Actor ‚Shooter‘ berührt, man auch verloren hat, ergo es wird die traurige Melodie gespielt und der Loose-Screen wird geöffnet.
 
 ## Corona Virus
@@ -295,13 +295,6 @@ Allerdings können die Aluhüte auch selber verschwinden. Bei ‚disappear‘ wi
 Im Code des Actors ‚PlayAgain‘ wird am Anfang erst das Bild genau definiert. Dann kommt die Act Methode, in welcher definiert ist, dass wenn man mit der Maus den Actor klickt, ein Klick-Geräusch abgespielt und der GameScreen geöffnet wird. Man kann das Spiel direkt erneut starten und so die Animation und Anleitung am Anfang überspringen.
 
 
-</details>
-
-<details>
-<summary>Sounds</summary>
-<br>
-Dies sind unsere Sounds...
- 
 </details>
 
 ### <a name="2"></a>Blog
