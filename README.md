@@ -151,14 +151,18 @@ Der Loose-Screen ist identisch aufgebaut, wie der Win-Screen.
  <p align="center">
   <img width="250" alt="StartButton" src="https://user-images.githubusercontent.com/88386173/162729189-d608f3d3-5bf5-4a63-9f88-00e8baacdbd5.png" />
 </p>
- 
+  
 <p align="center">
 <img width="650" alt="Allgemein" src="https://user-images.githubusercontent.com/88386173/162728603-93c935e9-357f-4ac7-ae9f-8a6b1e66261c.JPG" />
 </p>
+ 
+Dies ist der Actor StartButton, der, wenn man ihn drückt, das Spiel startet. Der obere Code ‚public StartButton‘ setzt das Bild des Actors und verkleinert es um die Hälfte.
 
  <p align="center">
 <img width="650" alt="addSpritze" src="https://user-images.githubusercontent.com/88386173/162728649-34611d5d-e4c5-4d5a-98a1-9f7fe8ed0293.JPG" />
 </p>
+ 
+Die Funktion des StartButton ist der public void ‚addSpritze‘.  Dieser wird ausgeführt, wenn man mit der Maus auf den Button klickt. Als erstes wird ein Klick-Geräusch abgespielt. Danach wird der Actor ‚Spritze‘ an einer bestimmten Stelle in die Welt gesetzt und die Anweisungen für den Spieler als Text angezeigt. Zuletzt verschwindet der StartButton.
  
  
 ## Spritze
@@ -174,6 +178,8 @@ Der Loose-Screen ist identisch aufgebaut, wie der Win-Screen.
 <p align="center">
 <img width="650" alt="moveanddropp" src="https://user-images.githubusercontent.com/88386173/162728846-f801087a-aa51-461c-adfd-c72116d75541.JPG" />
 </p>
+ 
+Der Actor ‚Spritze‘ wird über den StartButton in die Welt gesetzt. Die Spritze hat drei verschiedene Funktionen, ‚impfen‘, ‚add‘ und ‚WorldEdge‘. Bei ‚impfen‘ bewegt die Spritze sich nach links über den Bildschirm. Wenn sie die Stelle (250, 100) erreicht, wird ein Antikörper über ‚add‘ in die Welt gesetzt. Dies ist alles eine Animation, die die Impfung nachstellt und genug Zeit gibt, die Anleitung zu lesen. Wenn die Spritze den linken Bildschirmrand erreicht, wird sie durch ‚WorldEdge‘ entfernt und der GameScreen wird geöffnet. 
 
 ## Antikörper
   
@@ -190,14 +196,20 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
  <p align="center">
   <img width="900" alt="Fortbewegung" src="https://user-images.githubusercontent.com/88386173/162726225-5b13261f-197d-45e3-b724-3164b9a2b5fb.JPG" />
 </p>
+ 
+Der Antikörper ist der wichtigste Actor in diesem Spiel. Er wird von dem Spieler gesteuert. Wir haben hier mit einer boolean-Funktion gearbeitet, wodurch die startFlag zu Anfang false ist. Dies hat den Sinn, dass die Funktionen des Antikörpers erst funktionieren, wenn man die Eingabetaste drückt und dadurch die startFlag = true ist. Die Funktionen des Antikörpers sind ‚moveandturn‘, ‚eat‘ und ‚eaten‘. ‚Moveandturn‘ ist dafür da, dass man den Antikörper steuern kann. Dieser bewegt sich nur in Kreisbewegungen voran, da man nur mit der linken und rechten Pfeiltaste arbeitet und der Antikörper sich demnach leicht nach links oder rechts rotiert. Wenn man keine Pfeiltaste drückt, bewegt sich der Antikörper vorwärts.
 
  <p align="center">
-  <img width="900" alt="kill" src="https://user-images.githubusercontent.com/88386173/162726318-09ad2d34-5cd4-4f6a-83b4-c67b8fb8f187.JPG" />
+  <img width="900" alt="eat" src="https://user-images.githubusercontent.com/88386173/162726318-09ad2d34-5cd4-4f6a-83b4-c67b8fb8f187.JPG" />
 </p>
+ 
+Bei ‚eat‘ wurde dafür codiert, dass wenn der Antikörper den Actor Corona berührt, Corona aus der Welt entfernt wird. Außerdem wird ein klatschen-Sound abgespielt und der Win-Screen geöffnet, da man das Spiel gewonnen hat.
 
- <p align="center">
-  <img width="900" alt="eaten" src="https://user-images.githubusercontent.com/88386173/162726410-64c3f71a-d78e-4b15-9e64-37190a50470c.JPG" />
+<p align="center">
+<img width="900" alt="eaten" src="https://user-images.githubusercontent.com/88386173/162726410-64c3f71a-d78e-4b15-9e64-37190a50470c.JPG" />
 </p>
+ 
+‚Eaten‘ hingegen sorgt dafür, dass wenn man den Actor ‚Shooter‘ berührt, man auch verloren hat, ergo es wird die traurige Melodie gespielt und der Loose-Screen wird geöffnet.
 
 ## Corona Virus
 
@@ -205,13 +217,12 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
 <img width="259" alt="Virus" src="https://user-images.githubusercontent.com/88386173/152698129-0ca5576c-3438-45a8-adbd-3b08ba420612.PNG" />
 </p>
   
+ 
 <p align="center">
-<img width="259" alt="virus traurig" src="https://user-images.githubusercontent.com/88386173/152698284-aac60cfd-7d98-4179-b87f-f393aabc0e62.PNG" />
+<img width="650" alt="move" src="https://user-images.githubusercontent.com/88386173/162728278-a9d22436-9dda-43d9-9994-2abd151c9ef2.JPG" />
 </p>
  
- <p align="center">
-  <img width="650" alt="move" src="https://user-images.githubusercontent.com/88386173/162728278-a9d22436-9dda-43d9-9994-2abd151c9ef2.JPG" />
-</p>
+Der Actor Corona hat nur eine Aufgabe, nämlich sich willkürlich hin und her zu bewegen.  Mit dem void ‚moveAround‘ bewegt sich das Virus immer vorwärts. Allerdings wird immer wieder eine zufällige Nummer zwischen 0 und 100 generiert Wenn diese kleiner als 10 ist, dreht sich der Actor um einen bestimmten Grad, der auch zufällig generiert wird. Außerdem hat Corona noch die Aufgabe, wenn es einen Rand berührt, sich um 180 Grad zu drehen, sodass es nicht hängen bleibt.
  
 ## Alu (Aluhut)
  
@@ -222,18 +233,26 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
 <p align="center">
 <img width="650" alt="Aluallg" src="https://user-images.githubusercontent.com/88386173/162729448-56552ad7-86e4-4e25-9665-689ef1c2fd3f.JPG" />
 </p>
+ 
+Aluhut ist einer der Actor, die der Antikörper nicht berühren darf. ‚Appear‘, ‚kill‘ und ‚disappear‘ sind seine Methoden. 
 
 <p align="center">
 <img width="650" alt="appear" src="https://user-images.githubusercontent.com/88386173/162729543-1fb8e665-f79d-409a-8996-45a87ec24484.JPG" />
 </p>
+ 
+Bei ‚appear‘ ist dafür codiert, dass eine zufällige Zahl zwischen 0 und 400 generiert wird. Wenn diese Nummer 15 ist, wird ein Aluhut an zufällig generierten Koordinaten in das Spiel gesetzt. So ist gegeben, dass weder das Wo noch das Wann der Aluhüte vorhersehbar ist. 
 
 <p align="center">
 <img width="650" alt="kill" src="https://user-images.githubusercontent.com/88386173/162729594-82c28171-8d23-4b07-bfae-c5d9e8397417.JPG" />
 </p>
  
+Public void kill sorgt dafür, dass wenn der Antikörper einen Aluhut berührt, der Antikörper entfernt, die traurige Melodie abgespielt und der Loose-Screen geöffnet wird. Der Spieler hat verloren.
+ 
 <p align="center">
 <img width="650" alt="disappear" src="https://user-images.githubusercontent.com/88386173/162729641-1f1ccb19-6420-4abe-aab6-3bbf1df96600.JPG" />
-</p> 
+</p>
+ 
+Allerdings können die Aluhüte auch selber verschwinden. Bei ‚disappear‘ wird ein definierter Timer runtergezählt und wenn er 0 erreicht, wird der Aluhut aus der Welt entfernt. Wenn es dies nicht geben würde, wäre der Screen nach kurzer Zeit voll mit Aluhüten. Außerdem macht es das Spiel spannender, wenn Hindernisse zufällig auftreten und kurz danach wieder verschwinden.
 
 ## Shooter
  
@@ -272,6 +291,8 @@ Der Antikörper wird auf dem Start-Screen in die Welt gesetzt.
 <p align="center">
 <img width="750" alt="AllgPlayAgain" src="https://user-images.githubusercontent.com/88386173/162730830-23d5e9da-3bfb-4855-9cc8-1ed96677b7de.JPG" />
 </p>
+ 
+Im Code des Actors ‚PlayAgain‘ wird am Anfang erst das Bild genau definiert. Dann kommt die Act Methode, in welcher definiert ist, dass wenn man mit der Maus den Actor klickt, ein Klick-Geräusch abgespielt und der GameScreen geöffnet wird. Man kann das Spiel direkt erneut starten und so die Animation und Anleitung am Anfang überspringen.
 
 
 </details>
