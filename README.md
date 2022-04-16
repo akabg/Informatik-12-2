@@ -529,7 +529,7 @@ Frei wegen der mündlichen Englisch Prüfungen
 Letzte Informatikstunde. Vanessa und Antonia haben beide Corona. Farhat ist krank.
  
 ## 06.04.2022
-Herr Buhl ist netterweise in die Schule gekommen. Somit konnten Vanessa und ich das Spiel einmal so abspeichern, so dass wir auch von zuhause weiterarbeiten können. Außerdem hat auch er nochmal über unsere Codes geschaut und uns geholfen. So hat er uns in der Annahme bestätigt, dass wir das vorherige Textproblem wahrscheinlich nur mit einem Image lösen hätten können. 
+Herr Buhl ist netterweise in die Schule gekommen. Somit konnten Vanessa und Antonia das Spiel einmal so abspeichern, so dass wir auch von zuhause weiterarbeiten können. Außerdem hat auch er nochmal über unsere Codes geschaut und uns geholfen. So hat er uns in der Annahme bestätigt, dass wir das vorherige Textproblem wahrscheinlich nur mit einem Image lösen hätten können. 
 
 ## Osterferien
 Wir haben die Sounds in das Spiel integriert. So gibt es jetzt ab dem Game Screen eine durchgehende Melodie im Hintergrund. Zusätzlich gibt es Klick-Geräusche, wenn man einen Knopf drückt und einen Applaus oder eine traurige Melodie, je nachdem ob man verliert oder gewinnt.
