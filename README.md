@@ -264,6 +264,8 @@ Allerdings können die Aluhüte auch selber verschwinden. Bei ‚disappear‘ wi
 <p align="center">
 <img width="700" alt="Allg" src="https://user-images.githubusercontent.com/88386173/162730321-632c9d41-f98b-4c9e-ba19-a2127b3530af.JPG" />
 </p>
+ 
+Der Shooter ist ein Aluhut, der sich immer in einer Ecke des Game-Screens befindet und die Fähigkeit besitzt, Globulis, symbolisch dargestllt durch den Actor Shot, durch das Spiel zu schießen. Die Rate der Schussverzögerung, wird durch dem Minimalwert (minShotelay = 40) und dem Maximalwert (maxShotDelay = 160) geregelt. Wenn der codierte shotTimer == 0 entspricht, wird ,shoot' ausgeführt, und zwar in bestimmten Abständen, die von den Schussverzögerungen angegeben werden. Diese Funktion läuft durchgehend. ,shoot' regelt zunächst die Schussausrichtung von Shot, mittels des Greenfoot Ausdrucks ,getRandomNumber(360)', was heißt, dass eine Nummer zwischen 0 und 359 kreiert wird. Shot spawnt somit nach dem Zeit Intervall mit seiner Ausrichtung an der Stelle unseres Shooters. 
 
 ## Shot
  
@@ -275,13 +277,19 @@ Allerdings können die Aluhüte auch selber verschwinden. Bei ‚disappear‘ wi
 <img width="750" alt="Allg" src="https://user-images.githubusercontent.com/88386173/162730601-2a1c4f6a-edb5-4150-8d68-1899c94d949a.JPG" />
 </p>
 
+Shot entspricht die Globulis, die willkürlich durch den Screen geschoßen werden und ein weiteres Hindernis des Spiels darstellen sollen. Der erste Teil des Codes, greift die vom Shooter gegebene Ausrichtung auf und übertragt diese auf unser zu schießendes Objekt. "delete" und "mover" sind der Übersicht halber im public void act() und werden nacheinander ausgeführt.
+ 
 <p align="center">
 <img width="750" alt="delete" src="https://user-images.githubusercontent.com/88386173/162730641-fc378b4b-c9d7-40e4-8fd8-5ef08f9318ae.JPG" />
 </p>
+ 
+Wenn Shot auf den Protagonisten unseres Spiels, den Antikörper, trifft, wird der folgende Code ausgeführt. Der Abstand zum Antikörper ist in einem solchen Fall Null. Wenn der Abstand Null ist, wird der Antikörper aus der Welt gelöscht und es erscheinen die traurige Musik und der Loose-Screen, da man das Spiel bei Kontakt mit den Globulis verliert. 
 
 <p align="center">
 <img width="750" alt="mover" src="https://user-images.githubusercontent.com/88386173/162730693-9272250f-c732-4c3b-b3cf-a0dc409be736.JPG" />
 </p>
+ 
+Der Code für ,mover' sorgt dafür, dass sich unser Actor überhaupt bewegt und schlußendlich beim Aufprallen gegen die Ränder des Screens, nicht an diesen hängen bleibt und aus der Welt verschwindet. 
 
 ## NewGame
  
