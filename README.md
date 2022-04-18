@@ -1,4 +1,4 @@
-# Informatik-12.2
+# Informatik-12.2 - CatchingCorona
 
 ## Inhaltsverzeichnis
 
