@@ -339,9 +339,6 @@ Die Objekte nachdem "Run" gedrückt wird.
 ## 12-01-2022
 
 Heute hat die Stunde etwas später begonnen (ca. 13:20). Da wir nicht so viel Zeit hatten, haben wir uns mit dem Buch beschäftigt, was uns Herrn Buhl am Tag zuvor gegeben hat, um Java und Greenfoot nach wie vor besser nachzuvollziehen. Schliesslich hat Vanessa angefangen, den vorgegebenen Tutorials folgend etwas neues auf Greenfoot zu programmieren. 
- 
-## 18-01-2022
-Was haben wir gemacht?
   
 ## 19-01-2022
 Wir haben eine Mindmap mit unseren Finalen Ideen für unser neues Projekt erstellt:
