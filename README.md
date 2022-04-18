@@ -8,8 +8,6 @@
 
 [Fazit](#3)
 
-[Finale Links](#4)
-
 ### <a name="1"></a>Unser Projekt
 
 <details>
@@ -554,6 +552,9 @@ Weiterhin haben wir, nachdem das Spiel fertig gestellt war, Screenshots von alle
   
 
 ### <a name="3"></a>Fazit
+<details>
+<summary>Fazit</summary>
+<br>
 
 Obwohl dies bereits unser 2. Informatikprojekt war, hat es uns noch mal eine komplett neue Seite des Programmierens gezeigt. Da wir im letzten Projekt mit einer "Blocksprache" gearbeitet haben, war dieses Programmieren als Hinführung zur Java-Programmiersprache sehr geeignet. Es war eine super interessante erste Coding Erfahrung, und besonders Greenfoot war für alle Leistungsniveaus der Gruppe und für unser Vorwissen (das praktisch nicht vorhanden war) sehr angebracht. Zudem gab es in dem Greenfoot-Forum viele hilfreiche Tipps, weshalb das Codieren  nicht so schwer wie gedacht war.
 Wenn wir unser fertiges Spiel nun genauer unter die Augen nehmen, sind wir sehr zufrieden. Wir waren sogar in der Lage mehr Funktionen, als zuvor geplant, einzubauen, wie zum Beispiel den Countdown und die Musik.
@@ -561,12 +562,6 @@ Gewiss hatten auch wir mal Probleme und mussten Codes mehrmals umschreiben, bis 
 Ein weiterer Aspekt, der gewiss auch interessant gewesen wäre, hätte man mehr Zeit gehabt, sind Level. Das Spiel ist auf diese Art und Weise jetzt natürlich nicht das spannendste der Welt und mit mehreren Leveln könnte es vielseitiger sein. Doch das zu programmieren und andere, verschiedene Gegner neu zu erstellen lag leider nicht im Zeitrahmen. 
 Allem in allem sind wir sehr zufrieden mit unserer Leistung, besonders wenn man bedenkt, dass wir von 0 gestartet sind und nichts konnten. Wir haben immer Lösungen gefunden, wenn etwas nicht funktioniert hat und wir haben in dem Zeitplan, den wir erstellt haben, sogar mehr geschafft als geplant. Am Ende ist ein witziges, an 'Arcade-Spiele' erinnerndes Spiel entstanden, dass von vorne bis hinten funktioniert und in dem keine Spielrunde exakt gleich sind.
 
-### <a name="4"></a>Finale Links
-
-Notizen:
-<p align="center">
-<img width="250" alt="Actors" src="" />
-</p>
-
-
+ 
+</details>
 
