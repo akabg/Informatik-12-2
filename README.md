@@ -556,6 +556,5 @@ Gewiss hatten auch wir mal Probleme und mussten Codes mehrmals umschreiben, bis 
 Ein weiterer Aspekt, der gewiss auch interessant gewesen wäre, hätte man mehr Zeit gehabt, sind Level. Das Spiel ist auf diese Art und Weise jetzt natürlich nicht das spannendste der Welt und mit mehreren Leveln könnte es vielseitiger sein. Doch das zu programmieren und andere, verschiedene Gegner neu zu erstellen lag leider nicht im Zeitrahmen. 
 Allem in allem sind wir sehr zufrieden mit unserer Leistung, besonders wenn man bedenkt, dass wir von 0 gestartet sind und nichts konnten. Wir haben immer Lösungen gefunden, wenn etwas nicht funktioniert hat und wir haben in dem Zeitplan, den wir erstellt haben, sogar mehr geschafft als geplant. Am Ende ist ein witziges, an 'Arcade-Spiele' erinnerndes Spiel entstanden, dass von vorne bis hinten funktioniert und in dem keine Spielrunde exakt gleich ist.
 
- 
 </details>
 
