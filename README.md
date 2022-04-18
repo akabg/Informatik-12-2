@@ -16,9 +16,10 @@
 <summary>Vorstellung</summary>
 <br>
 Unsere Gruppe, bestehend aus Antonia, Farhat und Vanessa hat ein Spiel namens 'CatchCorona' programmiert. 
-Die Idee des Spiels ist es, dass der Spieler einen Antikörper steuert. Dabei muss er mit Hilfe der Pfeiltasten das Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeit zu erhöhen gibt es auch Hindernisse, die Aluhüte, denen man ausweichen muss, oder die auf einen schießen. Letztendlich hat man auch nur eine bestimmte Zeit zum Einfangen, da ein Timer runterläuft.
+Die Idee des Spiels ist es, dass der Spieler einen Antikörper steuert. Dabei muss er mithilfe der Pfeiltasten ein Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeit zu erhöhen, gibt es auch Hindernisse, die Aluhüte, denen man ausweichen muss, oder die auf einen schießen. Letztendlich hat man auch nur eine bestimmte Zeit zum Einfangen, da ein Timer runterläuft.
 Programmiert haben wir mit Greenfoot, eine interaktive Java-Entwicklungsumgebung. Dies war für alle in der Gruppe das erste "echte" programmieren.
 Der Look und auch das Prinzip des Spieles sollen  an ein 90er-Jahre Arcade Spiel erinnern. Manche der Actors haben wir selbst gezeichnet, so wie den Antikörper, Corona und auch die Aluhüte. Auch die Loose- und Win-Screens haben wir selbst designt. 
+Die Idee für das Spiel kam einfach aus der damaligen Corona-Situation heraus. Wir wollten das Thema der Querdenker (Aluhüte), dem Impfen und natürlich dem Coronavirus selbst humoristisch aufarbeiten, um auch einfach mal darüber lachen zu können.
 </details>
 
 
@@ -32,7 +33,7 @@ Die Spritze bewegt sich über den Bildschirm nach links und setzt auf halben Weg
  
 ### 2. Game Screen
 Hier beginnt das eigentliche Spiel. Das zu fangende Objekt, Corona, fängt sofort an sich zufällig über den Bildschirm zu bewegen. Der zu steuernde Antikörper fängt erst an sich zu bewegen und sich steuern zu lassen, wenn man die Eingabetaste drückt. Die Aluhüte lassen sich unterscheiden in einen, der statisch ist und mit Bällen zufällig um sich schießt und Aluhüte, die direkt zufällig spawnen und nach kurzer Zeit wieder verschwinden. Wenn man einen Aluhut berührt, oder man von einem Ball abgeschossen wird, hat man verloren. 
-Man spielt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit das Coronavirus zu fangen. Während des Spiels läuft im Hintergrund durchgehend eine Melodie. Am Ende des Spiels öffnet sich je nach Ausgang, entweder der Win-Screen oder der Loose-Screen.
+Man spielt also klassisch das Spiel und versucht dabei nicht zu sterben und im Rahmen der Zeit das Coronavirus zu fangen. Während des Spiels läuft im Hintergrund durchgehend eine Melodie. Am Ende des Spiels öffnet sich, je nach Ausgang, entweder der Win-Screen oder der Loose-Screen.
 
 ### 3.1 Win-Screen
 Man gewinnt, wenn der Antikörper Corona berührt. Dann öffnet sich der Win-Screen und ein Applaus ertönt. Zusätzlich hat man hier die Option auf einen 'Play Again' Button zu drücken, um direkt wieder zu dem Game Screen geleitet zu werden.
@@ -51,7 +52,7 @@ Man landet hier wenn:
 <summary> World (Setting) </summary>
 <br>
  
-Es gibt 4 verschiedene Screens/Worlds. Ein Start Screen, ein GameScreen und jeweils ein loose/win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
+Es gibt 4 verschiedene Screens/Worlds. Einen StartScreen, ein GameScreen und jeweils ein Loose/Win Screen. Alle spielen in einer Ader, also im menschlichen Blutkreislauf.
 
 ### 1. Start Screen
  
@@ -65,7 +66,7 @@ Inhalt
 <img width="600" alt="Start1" src="https://user-images.githubusercontent.com/88386173/162732710-16f9ecd8-2ec9-441d-b9e2-3fdacdb7a9f7.JPG" />
 </p>
  
-Wenn man das Spiel startet, ist dies der erste Eindruck, den man gewinnt. Wenn man auf den Button drückt, verschwindet dieser und drei Schriftzüge (die Anleitung) und die Spritze werden in die Welt gesetzt. Die Spritze bewegt sich nach links über den Bildschirm und setzt auf dem Weg einen Antikörper in die Welt, der Spieler ist jetzt geimpft (siehe Bild unten). Wenn die Spritze den Rand berührt, wird automatisch der Game Screen geöffnet. Auf dem Start Screen ist außer der StartButton nichts interaktiv. Man kann diesen Teil eher als Animation sehen, die die Geschichte des Spieles darstellt und zusätzlich Zeit gibt, um die Anleitung zu lesen.
+Wenn man das Spiel startet, ist dies der erste Eindruck, den man gewinnt. Wenn man auf den Button drückt, verschwindet dieser und drei Schriftzüge (die Anleitung) und die Spritze werden in die Welt gesetzt. Die Spritze bewegt sich nach links über den Bildschirm und setzt auf dem Weg einen Antikörper in die Welt, der Spieler ist jetzt geimpft (siehe Bild unten). Wenn die Spritze den Rand berührt, wird automatisch der GameScreen geöffnet. Auf dem StartScreen ist außer der StartButton nichts interaktiv. Man kann diesen Teil eher als Animation sehen, die die Geschichte des Spieles darstellt und zusätzlich Zeit gibt, um die Anleitung zu lesen.
  
 <p align="center">
 <img width="600" alt="Start2" src="https://user-images.githubusercontent.com/88386173/162732774-652f01ce-be59-40f8-bc7e-e4e4ca494a82.JPG" />
@@ -75,7 +76,7 @@ Wenn man das Spiel startet, ist dies der erste Eindruck, den man gewinnt. Wenn m
 <img width="600" alt="StartCode" src="https://user-images.githubusercontent.com/88386173/162732566-2f1e340e-3cff-49ef-9142-7c3ed5ca5f09.JPG" />
 </p>
  
-Dies ist der komplette Code des Start Screens. Er ist einfach gehalten, es wird nur der Actor 'StartButton' hinzugefügt, da der restliche Code bei den Actors selbst zu finden ist. 
+Dies ist der komplette Code des StartScreens. Er ist einfach gehalten, es wird nur der Actor 'StartButton' hinzugefügt, da der restliche Code bei den Actors selbst zu finden ist. 
 
 ### 2. Game Screen
  
@@ -97,13 +98,13 @@ Dies ist ein Screenshot, der den Aufbau des Spieles verdeutlicht. Das gelbe Coro
 <img width="600" alt="GameCode1" src="https://user-images.githubusercontent.com/88386173/162732820-c555a8bd-6422-485e-84c5-cc7accb92781.JPG" />
 </p>
  
-Den Code des Game Screens kann man in zwei Teile einteilen. In dem ersten Teil werden alle Actors in die Welt gesetzt. Es wird auch die Geschwindigkeit reguliert. Zusätzlich wird hier für die Hintergrundmusik codiert. Diese ist statisch, da sie sich sonst jedes mal, wenn man das Spiel neu startet, selbst überlegen würde.
+Den Code des GameScreens kann man in zwei Teile einteilen. In dem ersten Teil werden alle Actors in die Welt gesetzt. Es wird auch die Geschwindigkeit reguliert. Zusätzlich wird hier für die Hintergrundmusik codiert. Diese ist statisch, da sie sich sonst jedes Mal, wenn man das Spiel neu startet, selbst überlegen würde.
  
 <p align="center">
 <img width="450" alt="GameCode2" src="https://user-images.githubusercontent.com/88386173/162732826-74bb813f-fe82-4aee-89f5-fb88f6a78226.JPG" />
 </p>
  
-Der zweite Teil des Codes enthält die Methoden 'countTime' und 'showTime'. 'countTime' zählt den Timer (der auf dem 1. Bild zu sehen ist) runter und öffnet, wenn 0 erreicht ist, denn Loose Screen - man hat verloren. Die 'showTime' Methode zeigt den runterzählenden Timer und davor den Ausdruck 'Timer:' in der linken oberen Ecke im Spiel an, so dass man immer den aktuellen Stand sehen kann. Die restlichen Codes sind auch bei den Actors zu finden.
+Der zweite Teil des Codes enthält die Methoden 'countTime' und 'showTime'. 'countTime' zählt den Timer (der auf dem 1. Bild zu sehen ist) runter und öffnet, wenn 0 erreicht ist, denn Loose Screen - man hat verloren. Die 'showTime' Methode zeigt den runterzählenden Timer und davor den Ausdruck 'Timer:' in der linken oberen Ecke im Spiel an, sodass man immer den aktuellen Stand sehen kann. Die restlichen Codes sind auch bei den Actors zu finden.
 
 ### 3.1 Win-Screen
 
@@ -114,7 +115,7 @@ Inhalt:
 <img width="600" alt="WinScreen" src="https://user-images.githubusercontent.com/88386173/162733304-6e2137d5-6c3d-4857-b5af-a16113942233.JPG" />
 </p>
 
-Dies ist der Win-Screen, zu welchem man gelangt, wenn man gewonnen hat. Wenn man den 'Play Again' Button drückt, wird man automatisch erneut zu dem GameScreen weitergelietet.
+Dies ist der Win-Screen, zu welchem man gelangt, wenn man gewonnen hat. Wenn man den 'Play Again' Button drückt, wird man automatisch erneut zu dem GameScreen weitergeleitet.
 Der Code (unten zu sehen) ist für den Screen selbst einfach, es wird der Actor 'NewGame' (der 'Play Again' Button) in die Welt gesetzt. 
 
 <p align="center">
@@ -381,10 +382,10 @@ Codes zum abschiessen von "shots":
 ## 02-02-2022
   
 ## 08-02-2022
-Antonia hat zuhause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spiel Hintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.
-Farhat hat zuhause, da sie krank war, für Antonia und Vanessa mögliche Codes recherchiert für die Art von Spiel, die wir umsetzen wollen.
-In der Stunde haben wir angefangen eine zweite Version von unserem Spiel zu programmieren. Der Unterschied zur anderen Version liegt dabei, dass sich der Protagonist nicht vor und zurückbewegt, sondern er sich ständig fortbewegt und man mit den links und rechts Tasten  nur der Winkel ändern kann. Zusätzlich zu der Steuerung haben wir auch schon den Antagonisten erstellt, welcher, wenn der Protagonist ihn berührt, verschwindet. Der Antagonist bewegt sich von alleine und völlig zufällig fortwärts und dreht um, wenn er den Bildschirmrand berührt. 
-Bisher sind unsere actors nur durch "Platzsteller" besetzt, da die Bilder, die Antonia zuhause erstellt hat momentan noch nicht funktionieren. Sie haben, obwohl sie freigestellt sind, immer noch einen weißen Rand und erscheinend viel zu groß. Dieses Problem wollen wir noch lösen. 
+Antonia hat zu Hause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spielhintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.
+Farhat hat zu Hause, da sie krank war, für Antonia und Vanessa mögliche Codes recherchiert für die Art von Spiel, die wir umsetzen wollen.
+In der Stunde haben wir angefangen, eine zweite Version von unserem Spiel zu programmieren. Der Unterschied zur anderen Version liegt dabei, dass sich der Protagonist nicht vor und zurückbewegt, sondern er sich ständig fortbewegt und man mit den links und rechts Tasten  nur der Winkel ändern kann. Zusätzlich zu der Steuerung haben wir auch schon den Antagonisten erstellt, welcher, wenn der Protagonist ihn berührt, verschwindet. Der Antagonist bewegt sich von alleine und völlig zufällig vortwärts und dreht um, wenn er den Bildschirmrand berührt. 
+Bisher sind unsere Actors nur durch "Platzsteller" besetzt, da die Bilder, die Antonia zu Hause erstellt hat momentan noch nicht funktionieren. Sie haben, obwohl sie freigestellt sind, immer noch einen weißen Rand und erscheinend viel zu groß. Dieses Problem wollen wir noch lösen. 
   
 <p align="center">
 <img width="900" alt="code world" src="https://user-images.githubusercontent.com/88386173/153778984-662cd5d7-3dc2-49ce-9715-49a6f12ccd18.png" />
@@ -410,11 +411,11 @@ Die beiden unteren Codes beschreiben, wie zuvor erwähnt, dass  Corona, falls es
 <img width="400" alt="world 1" src="https://user-images.githubusercontent.com/88386173/153779031-397eeaa0-ba1c-4ec3-8e6c-d07114397cb1.png" />
 </p>
   
-Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnliche Tier stellt den Gegner da, das K steuert der Spieler. Wichtig zu erwähnen ist hier, das alles, sowohl die Kostüme der actors als auch der Hintergrund bisher nur Platzhalter sind und sich noch ändern sollen.
+Und hier sieht man nun final unseren ersten Entwurf des Spieles. Das Mader-ähnliche Tier stellt den Gegner dar, das K steuert der Spieler. Wichtig zu erwähnen ist hier, dass alles, sowohl die Kostüme der Actors als auch der Hintergrund bisher nur Platzhalter sind und sich noch ändern sollen.
   
-Zusatz: Da Vanessa und Antonia  sich falsch verstanden haben und an zwei verschiedenen "Arten" des Spiels gearbeitet haben (vgl 08.02.2022), mussten wir sämtliche Codes, die Vanessa eigentlich programmiert hatte, verwerfen.
+Zusatz: Da Vanessa und Antonia  sich falsch verstanden haben und an zwei verschiedenen "Arten" des Spiels gearbeitet haben (vgl. 08.02.2022), mussten wir sämtliche Codes, die Vanessa eigentlich programmiert hatte, verwerfen.
   
-Vanessa hat also Plan geändert und die Rollen von "pizza" und "leaf" umgedreht. "Pizza" soll nun das Antikörper sein, welches vom Actor "leaf", unserem Aluhüttchen, abgeschossen werden soll. Die Funktionen, des sich Hoch- und Runterbewegens waren also nicht mehr nötig, genauso wie das weitere Programmieren des sich automatisch Hoch- und Runterbewegenden "leaf"-Actor. Nachdem Antonia und Vanessa das Missverständnis geklärt haben und sich dazu entschieden haben, an Antonias "Jagd"-Version weiter zu codieren, hat sich Vanessa mit unterschiedlichen Codes auseinander gesetzt, die man in die richtige Version einsetzen könnte. Der nächste Schritt war für sie, ein Code zu finden, durch welchen der Actor "pizza" verschwindet, sobald er vom abgeschossenen Actor "Shots" berührt wird. 
+Vanessa hat also Plan geändert und die Rollen von "pizza" und "leaf" umgedreht. "Pizza" soll jetzt das Antikörper sein, welches vom Actor "leaf", unserem Aluhütchen, abgeschossen werden soll. Die Funktionen, des sich Hoch- und Runterbewegens waren also nicht mehr nötig, genauso wie das weitere Programmieren des sich automatisch Hoch- und Runterbewegenden "leaf"-Actor. Nachdem Antonia und Vanessa das Missverständnis geklärt haben und sich dazu entschieden haben, an Antonias "Jagd"-Version weiter zu codieren, hat sich Vanessa mit unterschiedlichen Codes auseinandergesetzt, die man in die richtige Version einsetzen könnte. Der nächste Schritt war für sie, ein Code zu finden, durch welchen der Actor "pizza" verschwindet, sobald er vom abgeschossenen Actor "Shots" berührt wird. 
   
 Code für das Verschwinden von "pizza" nach dem Abschießen von "Shots":
   
@@ -427,9 +428,9 @@ So hat Vanessa weiter an einer "Schieß-Funktion" gecodet, die wir später für 
 Antonia hat währenddessen eine zweite subworld erstellt und auf dieser einen Startbutton-actor eingeführt, bei welchem auf Knopfdruck das Spiel startet. Da Greenfoot andauernd abgestürzt ist, konnte sie ihn bisher nicht testen und muss dies nächste Stunde tun. Zuhause hat Antonia den GitHub für die letzten Tage geupdatet.
 
 ## 15-02-2022
-Antonia hat einen Start Screen als neue World eingefügt, die als erstes erscheint, wenn man das Spiel startet. Darauf ist ein Actor mittig platziert, welcher wie ein Startknopf aussieht. Wenn man auf "Button" drückt, erscheint der Gaming Screen und der Coronavirus fängt schon an sich zu bewegen. 
-Den Actor, den der Spieler selbst steuert, das Antikörper, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antikörper arbeiten nur, wenn Boolean true ist. 
-Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis promiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn das Antikörper gegen einen Alu stößt, ist das Spiel verloren.
+Antonia hat einen Start Screen als neue World eingefügt, die als Erstes erscheint, wenn man das Spiel startet. Darauf ist ein Actor mittig platziert, welcher wie ein Startknopf aussieht. Wenn man auf "Button" drückt, erscheint der Gaming Screen und der Coronavirus fängt schon an sich zu bewegen. 
+Den Actor, den der Spieler selbst steuert, ein Antikörper, fängt erst an sich zu bewegen, wenn man die Eingabetaste klickt. Dies haben wir mit einer Boolean Funktion codiert, die immer false ist, außer wenn die Eingabetaste gedrückt wird. Und die Aktionen des Antikörper arbeiten nur, wenn Boolean true ist. 
+Nachdem dies eingestellt war, hat sich Antonia an die Einführung eines Hindernis probiert. Wir wollten Querdenker, sogenannte "Alu"s (wegen Aluhüte), die immer wieder random auftauchen und nach ein paar Sekunden wieder verschwinden. Wenn der Antikörper gegen einen Alu stößt, ist das Spiel verloren.
 Der Code sieht vor, dass  der Computer eine Zahl zwischen 0 und x random generieren soll. Ist diese Zahl 15, wird ein Alu an eine beliebige Stelle im Spiel platziert. Allerdings hat sie dazu noch nicht die Funktion erstellt, dass Alu nach ein paar Sekunden wieder verschwindet, weshalb sie in der Test- und Suchphase nach einer passenden Zahl, von Alus überschwemmt wurde. Doch nach ein paar Versuchen, hat sie eine gute Zahl gefunden, wo Alus in einem angemessenen Abstand spawnen.
   
 <p align="center">
@@ -553,6 +554,12 @@ Weiterhin haben wir, nachdem das Spiel fertig gestellt war, Screenshots von alle
   
 
 ### <a name="3"></a>Fazit
+
+Obwohl dies bereits unser 2. Informatikprojekt war, hat es uns noch mal eine komplett neue Seite des Programmieren gezeigt. Da wir im letzten Projekt mit einer "Blocksprache" gearbeitet haben, war dieses Programmieren als Hinführung zur Java-Programmiersprache sehr geeignet. Es war eine super interessante erste Coding Erfahrung, und besonders Greenfoot war für alle Leistungsniveaus der Gruppe und für unser Vorwissen (das praktisch nicht vorhanden) sehr angebracht. Zudem gab es in dem Greenfoot-Forum viele hilfreiche Tipps, weshalb das Codieren  nicht so schwer wie gedacht war.
+Wenn wir unser fertiges Spiel nun genauer unter die Augen nehmen, sind wir sehr zufrieden. Wir waren sogar in der Lage mehr Funktionen, als zuvor geplant, einzubauen, wie zum Beispiel den Countdown und die Musik.
+Gewiss hatten auch wir mal Probleme und mussten Codes mehrmals umschreiben, bis sie funktionierten, weshalb sie teils umständig wirken könnten. Wenn man noch ein Halbjahr hätte, könnte man vielleicht auch versuchen, eine Funktionen anders oder einfacher umzusetzen, zum Beispiel das der Alu auch schießen kann und man dafür keinen extra Shooter Actor braucht. Dennoch ist unsere Umsetzung von Hindernissen schon besser, als wir sie am Anfang geplant hatten. Denn würden die Alus den Antikörper jagen oder es würde gezielt und nicht random geschossen werden, wäre es fast unmöglich gewesehn, das Spiel zu gewinnen. 
+Ein weiterer Aspekt, der gewiss auch interressant gewesen wäre, hätet man mehr Zeit gehabt, sind Level. Das Spiel ist auf diese Art und Weise jetzt natürlich nicht das spannendste der Welt und mit mehreren Leveln könnte es vielseitiger sein. Doch das zu programmieren und andere, verschiedene Gegner neu zu erstellen lag leider nicht im Zeitrahmen. 
+Allem in allem sind wir sehr zufrieden mit unserer Leistung, besonders wenn man bedenkt, dass wir von 0 gestartet sind und nichts konnten. Wir haben immer Lösungen gefunden, wenn etwas nicht funktioniert hat und wir haben in dem Zeitplan, den wir erstellt haben, sogar mehr geschafft als geplant. Am Ende ist ein witziges, an 'Arcade-Spiele' erinnerndes Spiel entstanden, dass von vorne bis hinten funktioniert und in dem keine Spielrunde exakt gleich sind.
 
 ### <a name="4"></a>Finale Links
 
