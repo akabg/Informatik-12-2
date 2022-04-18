@@ -1,4 +1,4 @@
-# Informatik-12.2 - CatchingCorona
+# Informatik-12.2 - CatchCorona
 
 ## Inhaltsverzeichnis
 
@@ -13,7 +13,7 @@
 <details>
 <summary>Vorstellung</summary>
 <br>
-Unsere Gruppe, bestehend aus Antonia, Farhat und Vanessa hat ein Spiel namens 'CatchCorona' programmiert. 
+Unsere Gruppe, bestehend aus Antonia Köhler, Farhat Afendi und Vanessa Vaino hat ein Spiel namens 'CatchCorona' programmiert. 
 Die Idee des Spiels ist es, dass der Spieler einen Antikörper steuert. Dabei muss er mithilfe der Pfeiltasten ein Coronavirus jagen. Wenn der Antikörper das Virus berührt, hat der Spieler gewonnen. Um die Schwierigkeit zu erhöhen, gibt es auch Hindernisse, die Aluhüte, denen man ausweichen muss, oder die auf einen schießen. Letztendlich hat man auch nur eine bestimmte Zeit zum Einfangen, da ein Timer runterläuft.
 Programmiert haben wir mit Greenfoot, eine interaktive Java-Entwicklungsumgebung. Dies war für alle in der Gruppe das erste "echte" programmieren.
 Der Look und auch das Prinzip des Spieles sollen  an ein 90er-Jahre Arcade Spiel erinnern. Manche der Actors haben wir selbst gezeichnet, so wie den Antikörper, Corona und auch die Aluhüte. Auch die Loose- und Win-Screens haben wir selbst designt. 
