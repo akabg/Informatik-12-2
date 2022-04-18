@@ -375,9 +375,6 @@ Screen, nachdem "shots" durch drücken der Leertaste geschossen wurde
 Codes zum abschiessen von "shots":
 
 ![pizzacodes](https://user-images.githubusercontent.com/88386321/154083433-de33620e-d32b-4065-b185-f1709b1e6196.PNG)
-
-
-## 02-02-2022
   
 ## 08-02-2022
 Antonia hat zu Hause, da sie krank war und in ein paar Stunden gefehlt hat, weiter gearbeitet. Zum einen hat sie Github aktualisiert und den Aufbau der Seite weiter ausgearbeitet. Dann hat sie im Greenfoot Buch erste Codes herausgesucht, die für unser Spiel nützlich sein könnten. Zuletzt hat sie unseren Spielhintergrund und die Charaktere gezeichnet, sodass wir diese ins Spiel einarbeiten können.
